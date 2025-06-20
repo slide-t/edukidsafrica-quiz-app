@@ -130,4 +130,10 @@ h1 {
   0% { transform: translateX(0); opacity: 1; }
   100% { transform: translateX(-100%); opacity: 0; }
 }
-
+/* Add to your embedded page's CSS (styles.css) */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+    }
