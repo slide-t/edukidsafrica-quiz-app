@@ -420,6 +420,12 @@ document.addEventListener("DOMContentLoaded", () => {
   renderQuestion();
 });
 
-
+function informHeight() {
+  const h = document.body.scrollHeight;
+  window.parent.postMessage({ quizHeight: h }, '*');
+}
+window.addEventListener('load', () => {
+  setTimeout(informHeight, 600);
+});
 
     
