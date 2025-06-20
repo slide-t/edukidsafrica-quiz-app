@@ -318,7 +318,119 @@ const questions = [
     question: "Which of these shows reported question?",
     options: ["He asked, 'Are you happy?'", "He asked if I was happy", "Are you happy?", "He ask are you happy?"],
     correct: "He asked if I was happy"
+  },
+
+  {
+    question: "What is the function of an adverb?",
+    options: ["Describes a noun", "Describes a verb", "Names a place", "Replaces a noun"],
+    correct: "Describes a verb"
+  },
+  {
+    question: "What punctuation ends a question?",
+    options: ["!", ".", "?", ","],
+    correct: "?"
+  },
+  {
+    question: "Which of these is a phonetic symbol for /ʃ/?",
+    options: ["/k/", "/b/", "/ʃ/", "/z/"],
+    correct: "/ʃ/"
+  },
+  {
+    question: "What is the past tense of 'teach'?",
+    options: ["Teached", "Taught", "Teach", "Taughted"],
+    correct: "Taught"
+  },
+  {
+    question: "Identify the correct sentence:",
+    options: [
+      "She have finished.",
+      "She has finish.",
+      "She has finished.",
+      "She finishing."
+    ],
+    correct: "She has finished."
+  },
+  {
+    question: "Which word is an example of onomatopoeia?",
+    options: ["Bang", "Fast", "Red", "Big"],
+    correct: "Bang"
+  },
+  {
+    question: "Choose the plural of 'goose'.",
+    options: ["Gooses", "Goose", "Geese", "Geeses"],
+    correct: "Geese"
+  },
+  {
+    question: "Which sentence is in the present perfect tense?",
+    options: ["He walks.", "He walked.", "He has walked.", "He will walk."],
+    correct: "He has walked."
+  },
+  {
+    question: "Which word means the same as 'enormous'?",
+    options: ["Tiny", "Huge", "Fast", "Shiny"],
+    correct: "Huge"
+  },
+  {
+    question: "Which is a demonstrative pronoun?",
+    options: ["He", "It", "These", "We"],
+    correct: "These"
+  },
+  {
+    question: "Which word contains a silent letter?",
+    options: ["Knight", "Bright", "Might", "Fight"],
+    correct: "Knight"
+  },
+  {
+    question: "What does the prefix 're-' mean?",
+    options: ["Not", "Again", "Before", "Small"],
+    correct: "Again"
+  },
+  {
+    question: "Pick the correct sentence:",
+    options: [
+      "Where did he went?",
+      "Where has he gone?",
+      "Where do he went?",
+      "Where he go?"
+    ],
+    correct: "Where has he gone?"
+  },
+  {
+    question: "Identify the adjective: 'The tall boy ran fast.'",
+    options: ["Boy", "Ran", "Tall", "Fast"],
+    correct: "Tall"
+  },
+  {
+    question: "Which is a verb?",
+    options: ["Run", "Blue", "Under", "Happy"],
+    correct: "Run"
+  },
+  {
+    question: "Choose the suitable conjunction: 'I was late ___ the rain.'",
+    options: ["but", "so", "because", "and"],
+    correct: "because"
+  },
+  {
+    question: "What is the comparative of 'happy'?",
+    options: ["Happiest", "More happy", "Happier", "Happyer"],
+    correct: "Happier"
+  },
+  {
+    question: "Choose the correctly punctuated title:",
+    options: ["my best friend", "My Best Friend", "my Best friend", "My best Friend"],
+    correct: "My Best Friend"
+  },
+  {
+    question: "What part of speech is 'quickly'?",
+    options: ["Adjective", "Adverb", "Preposition", "Conjunction"],
+    correct: "Adverb"
+  },
+  {
+    question: "Which of these is a correct exclamation?",
+    options: ["Oh!", "Cat", "Went", "He"],
+    correct: "Oh!"
   }
+
 ];
 
 
