@@ -54,6 +54,16 @@
   </div>
 
   <script src="script.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register("../../common/service-worker.js")
+    .then(() => console.log("✅ Service Worker Registered"))
+    .catch(err => console.error("❌ Service Worker Error", err));
+}
+</script>
+  
+  
+  <!--
   <script>
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register("../../common/service-worker.js")
@@ -61,6 +71,7 @@
     .catch(err => console.error("❌ Service Worker Error", err));
   }
 </script>
+  -->
   <script>
   function startGame() {
   document.getElementById("quizModal").style.display = "none";
