@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>English Quiz - Level1</title>
-  <link rel="manifest" href="edukidsafrica-quiz-app/common/manifest.json" />
+  <title>Subject Quiz - PWA</title>
+  <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#004080" />
-  <link rel="stylesheet" href="edukidsafrica-quiz-app/common/style.css">
+  <link rel="stylesheet" href="styles.css">
   <script>
     document.addEventListener('contextmenu', event => event.preventDefault());
     document.addEventListener('keydown', event => {
@@ -61,8 +61,13 @@
     .catch(err => console.error("❌ Service Worker Error", err));
   }
 </script>
-  
+  <script>
+  function startGame() {
+  document.getElementById("quizModal").style.display = "none";
+  document.querySelector(".container").style.display = "block";
+  renderQuestion();
+}
+  </script>
   
 </body>
 </html>
-
