@@ -403,16 +403,16 @@ function showResult() {
   const box = document.getElementById("question-box");
   box.innerHTML = `
     <h2>Your Score: ${score}/${questions.length}</h2>
-    <p>${score >= 45 ? "🎉 Well done!" : "Try again to score 45 and above!"}</p>
+    <p>${score >= 55 ? "🎉 Well done!" : "Try again to score 45 and above!"}</p>
   `;
 
-  if (score >= 45) {
+  if (score >= 55) {
     document.getElementById("next-level").style.display = "inline-block";
   }
 }
 
 function goToNextLevel() {
-  window.location.href = "math-level2.html";
+  window.location.href = "https://slide-t.github.io/edukidsafrica-quiz-app/English/level3/index.html";
 }
 
 // Only run when the DOM is fully loaded
