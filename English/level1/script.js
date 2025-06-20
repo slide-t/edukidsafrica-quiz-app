@@ -150,7 +150,7 @@ function showResult() {
 }
 
 function goToNextLevel() {
-  window.location.href = "math-level2.html";
+  window.location.href = "https://slide-t.github.io/edukidsafrica-quiz-app/English/level2/index.html";
 }
 
 // Only run when the DOM is fully loaded
