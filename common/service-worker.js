@@ -1,4 +1,4 @@
-const CACHE_NAME = 'edukids-pwa-cache-v1.24';
+const CACHE_NAME = 'edukids-pwa-cache-v1.25';
 const ASSETS_TO_CACHE = [
   './styles.css',
   './manifest.json',
