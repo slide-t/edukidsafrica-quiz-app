@@ -537,12 +537,17 @@ function goToNextLevel() {
   window.location.href = "math-level2.html";
 }
 
-// Only run when the DOM is fully loaded
-document.addEventListener("DOMContentLoaded", () => {
-  renderQuestion();
+// --- Tell parent (blogger) the loaded height ---
+function informHeight() {
+  const height = document.body.scrollHeight;
+  window.parent.postMessage({ quizHeight: height }, '*');
+}
+
+window.addEventListener('load', () => {
+  setTimeout(informHeight, 500); // ensure layout is ready
 });
 
-
+// Also call after each question render if layout changes
 
     
 
