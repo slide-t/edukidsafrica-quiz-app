@@ -1,4 +1,4 @@
-const CACHE_NAME = "edukids-cache-v1.2";
+const CACHE_NAME = "edukids-cache-v1.21";
 
 const urlsToCache = [
   "./", 
