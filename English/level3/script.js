@@ -1,313 +1,323 @@
 const questions = [
   {
-    question: "Which is the correct plural of 'child'?",
-    options: ["Childs", "Children", "Childes", "Childrens"],
-    correct: "Children"
+    question: "What is the antonym of 'generous'?",
+    options: ["Kind", "Greedy", "Helpful", "Gentle"],
+    correct: "Greedy"
   },
   {
-    question: "Identify the verb in the sentence: 'She runs every morning.'",
-    options: ["She", "Runs", "Every", "Morning"],
-    correct: "Runs"
+    question: "Choose the correct tense: 'She had finished the work.'",
+    options: ["Past", "Present perfect", "Past perfect", "Future"],
+    correct: "Past perfect"
   },
   {
-    question: "What is the opposite of 'brave'?",
-    options: ["Fearless", "Shy", "Cowardly", "Strong"],
-    correct: "Cowardly"
+    question: "Which is a proper noun?",
+    options: ["Chair", "London", "Street", "River"],
+    correct: "London"
   },
   {
-    question: "Which word is a noun?",
-    options: ["Beautiful", "Quickly", "Dog", "Jump"],
-    correct: "Dog"
+    question: "Pick the correct homophone for 'pair'",
+    options: ["Pare", "Peer", "Pear", "Pier"],
+    correct: "Pear"
   },
   {
-    question: "Choose the correct punctuation: 'How are you'",
-    options: ["How are you.", "How are you!", "How are you?", "How are you,"],
-    correct: "How are you?"
-  },
-  {
-    question: "What is the correct past tense of 'go'?",
-    options: ["Goes", "Gone", "Going", "Went"],
-    correct: "Went"
-  },
-  {
-    question: "Which is a question word?",
-    options: ["Play", "When", "Book", "Happy"],
-    correct: "When"
-  },
-  {
-    question: "Which of these is a pronoun?",
-    options: ["She", "Car", "House", "Red"],
-    correct: "She"
-  },
-  {
-    question: "Pick the sentence with a capital letter and full stop.",
+    question: "What is a simile?",
     options: [
-      "i like mango",
-      "I like mango",
-      "i like mango.",
-      "I like mango."
+      "A comparison using 'like' or 'as'",
+      "A repetition of sounds",
+      "An exaggeration",
+      "A short story"
     ],
-    correct: "I like mango."
+    correct: "A comparison using 'like' or 'as'"
   },
   {
-    question: "What is a compound word?",
-    options: [
-      "Two words joined to make one",
-      "A long sentence",
-      "A difficult word",
-      "A broken word"
-    ],
-    correct: "Two words joined to make one"
-  },
-  {
-    question: "Choose the correct spelling:",
-    options: ["Recieve", "Receive", "Receeve", "Receve"],
-    correct: "Receive"
-  },
-  {
-    question: "Which word is an adjective?",
-    options: ["Soft", "Run", "Gently", "Dog"],
-    correct: "Soft"
-  },
-  {
-    question: "Which is a command sentence?",
-    options: ["What is your name?", "Sit down.", "The boy is tall.", "She is eating."],
-    correct: "Sit down."
-  },
-  {
-    question: "What is the opposite of 'early'?",
-    options: ["Late", "Fast", "Long", "Soon"],
-    correct: "Late"
-  },
-  {
-    question: "What does the word 'bark' mean in 'The dog barked loudly'?",
-    options: ["Tree covering", "Cry of a dog", "Wood", "Scratch"],
-    correct: "Cry of a dog"
-  },
-  {
-    question: "What is a synonym for 'happy'?",
-    options: ["Sad", "Angry", "Joyful", "Tired"],
-    correct: "Joyful"
-  },
-  {
-    question: "Which is a declarative sentence?",
-    options: ["Close the door.", "Is that your book?", "I am hungry.", "Where are you?"],
-    correct: "I am hungry."
-  },
-  {
-    question: "Pick a sentence with correct grammar.",
-    options: ["He going school", "He go to school", "He is going to school", "He gone to school"],
-    correct: "He is going to school"
-  },
-  {
-    question: "Which part of speech is 'quickly'?",
-    options: ["Noun", "Adjective", "Adverb", "Verb"],
-    correct: "Adverb"
-  },
-  {
-    question: "Which is a preposition?",
-    options: ["Under", "Walk", "Fast", "Green"],
+    question: "Which is an example of a preposition?",
+    options: ["Quickly", "Under", "Joyful", "Sing"],
     correct: "Under"
   },
   {
-    question: "What is the correct article: '___ apple a day keeps the doctor away.'",
-    options: ["An", "A", "The", "Some"],
-    correct: "An"
-  },
-  {
-    question: "Choose a correct plural noun:",
-    options: ["Foots", "Feets", "Feet", "Foot"],
-    correct: "Feet"
-  },
-  {
-    question: "What is a sentence?",
+    question: "Choose the correct passive sentence:",
     options: [
-      "A group of letters",
-      "A single word",
-      "A group of words with meaning",
-      "A long phrase"
+      "He eats the food.",
+      "The food is eaten.",
+      "He is eating food.",
+      "Food eats him."
     ],
-    correct: "A group of words with meaning"
+    correct: "The food is eaten."
   },
   {
-    question: "Which is a suitable question tag: 'You are coming, ___?'",
-    options: ["is it", "aren’t you", "will it", "do you"],
-    correct: "aren’t you"
+    question: "What is the plural of 'analysis'?",
+    options: ["Analysises", "Analysi", "Analysis", "Analyses"],
+    correct: "Analyses"
   },
   {
-    question: "Which is an example of a proper noun?",
-    options: ["Dog", "Girl", "Nigeria", "Book"],
-    correct: "Nigeria"
+    question: "Which sentence uses a question tag?",
+    options: ["You’re going, aren’t you?", "Where are you?", "Go now!", "He danced well."],
+    correct: "You’re going, aren’t you?"
   },
   {
-    question: "Pick the correctly punctuated sentence.",
+    question: "What is a conjunction?",
+    options: ["A joining word", "A naming word", "A describing word", "A sound word"],
+    correct: "A joining word"
+  },
+  {
+    question: "Choose the correct punctuation for a direct speech:",
     options: [
-      "wow that is amazing",
-      "Wow! That is amazing.",
-      "wow That is amazing!",
-      "Wow that is amazing"
+      "'Come here,' said the teacher.",
+      "Come here said the teacher.",
+      "'Come here said the teacher.'",
+      "Come here, said the teacher"
     ],
-    correct: "Wow! That is amazing."
+    correct: "'Come here,' said the teacher."
   },
   {
-    question: "Which is a verb?",
-    options: ["Run", "Fast", "Beautiful", "Angry"],
-    correct: "Run"
+    question: "Which is an interjection?",
+    options: ["Wow!", "And", "She", "Run"],
+    correct: "Wow!"
   },
   {
-    question: "Identify the adjective: 'The small boy is happy.'",
-    options: ["Boy", "Is", "Small", "Happy"],
-    correct: "Small"
+    question: "What is the collective noun for 'fish'?",
+    options: ["Herd", "Group", "School", "Fleet"],
+    correct: "School"
   },
   {
-    question: "Which sentence shows future tense?",
-    options: ["She danced", "She is dancing", "She dances", "She will dance"],
-    correct: "She will dance"
+    question: "Identify the verb in: 'The children are playing football.'",
+    options: ["Children", "Playing", "Football", "Are"],
+    correct: "Playing"
   },
   {
-    question: "What does the contraction 'don’t' mean?",
-    options: ["Do not", "Does not", "Did not", "Don it"],
-    correct: "Do not"
+    question: "Which shows the future continuous tense?",
+    options: ["He will be eating", "He eats", "He ate", "He is eating"],
+    correct: "He will be eating"
   },
   {
-    question: "What is the antonym of 'strong'?",
-    options: ["Weak", "Tall", "Soft", "Fast"],
-    correct: "Weak"
+    question: "Choose the correct comparison: 'She is ___ than her sister.'",
+    options: ["tall", "taller", "tallest", "more tall"],
+    correct: "taller"
   },
   {
-    question: "Which of the following is not a punctuation mark?",
-    options: [".", ",", "!", "@"],
-    correct: "@"
+    question: "What is the adverb in this sentence? 'He runs quickly.'",
+    options: ["He", "Runs", "Quickly", "Run"],
+    correct: "Quickly"
   },
   {
-    question: "Which is an exclamation?",
-    options: ["Oh no!", "I can run", "What are you doing?", "I ate rice"],
-    correct: "Oh no!"
+    question: "What is the prefix in 'disagree'?",
+    options: ["Dis", "Agree", "Re", "Pre"],
+    correct: "Dis"
   },
   {
-    question: "Which word completes this: 'The ____ is barking.'",
-    options: ["Boy", "Dog", "Pen", "Bag"],
-    correct: "Dog"
+    question: "Which sentence is in conditional tense?",
+    options: [
+      "I will go if you come.",
+      "I go to school.",
+      "She plays daily.",
+      "We were eating."
+    ],
+    correct: "I will go if you come."
   },
   {
-    question: "Which shows present continuous tense?",
-    options: ["He walk", "He walks", "He is walking", "He walked"],
-    correct: "He is walking"
+    question: "What is the meaning of 'synonym'?",
+    options: ["Opposite", "Same meaning", "Sound word", "Big word"],
+    correct: "Same meaning"
   },
   {
-    question: "Which is a homophone for 'sun'?",
-    options: ["Son", "Soon", "Sin", "Seen"],
-    correct: "Son"
+    question: "What is the antonym of 'frequent'?",
+    options: ["Rare", "Often", "Daily", "Always"],
+    correct: "Rare"
   },
   {
-    question: "Choose a pair of rhyming words.",
-    options: ["Chair – Table", "Fun – Run", "Cat – Dog", "Big – Small"],
-    correct: "Fun – Run"
+    question: "Choose the word with a silent letter.",
+    options: ["Knife", "Cup", "Lamp", "Run"],
+    correct: "Knife"
   },
   {
-    question: "Identify the object: 'She threw the ball.'",
-    options: ["She", "Threw", "Ball", "The"],
-    correct: "Ball"
+    question: "What is the suffix in 'kindness'?",
+    options: ["ness", "kind", "ly", "ed"],
+    correct: "ness"
   },
   {
-    question: "What is the meaning of 'polite'?",
-    options: ["Rude", "Friendly", "Respectful", "Angry"],
-    correct: "Respectful"
+    question: "Choose the correct sentence:",
+    options: ["She don’t like it.", "She doesn’t like it.", "She isn’t likes it.", "She don’t likes it."],
+    correct: "She doesn’t like it."
   },
   {
-    question: "Complete: 'I am _____ to school now.'",
-    options: ["going", "gone", "goes", "went"],
-    correct: "going"
+    question: "Which word is an antonym of 'lazy'?",
+    options: ["Hardworking", "Slow", "Tired", "Quiet"],
+    correct: "Hardworking"
   },
   {
-    question: "Pick a sentence in past tense:",
-    options: ["He eats food.", "He is eating food.", "He ate food.", "He eat food."],
-    correct: "He ate food."
+    question: "Choose the correct sentence for a formal letter opening:",
+    options: [
+      "Hi friend!",
+      "Dear Sir/Madam,",
+      "What's up?",
+      "Yo Teacher!"
+    ],
+    correct: "Dear Sir/Madam,"
   },
   {
-    question: "What is the collective noun for 'cows'?",
-    options: ["A group", "A herd", "A team", "A school"],
-    correct: "A herd"
+    question: "Which is an imperative sentence?",
+    options: ["Sit down.", "Is he there?", "She likes fish.", "What is this?"],
+    correct: "Sit down."
   },
   {
-    question: "What is a synonym for 'fast'?",
-    options: ["Quick", "Slow", "Small", "Big"],
-    correct: "Quick"
+    question: "Pick the correct plural of 'leaf'",
+    options: ["Leafs", "Leaves", "Leavs", "Leafes"],
+    correct: "Leaves"
   },
   {
-    question: "Which sentence is correct?",
-    options: ["The cat sleep.", "The cat sleeps.", "The cat sleeping.", "The cat sleeped."],
-    correct: "The cat sleeps."
+    question: "Which is an auxiliary verb?",
+    options: ["Have", "Write", "Run", "Eat"],
+    correct: "Have"
   },
   {
-    question: "Which sentence is in passive voice?",
-    options: ["He wrote a letter.", "The letter was written by him.", "He is writing a letter.", "He writes letters."],
-    correct: "The letter was written by him."
+    question: "Pick a pair of homophones.",
+    options: ["There – Their", "Big – Small", "Boy – Girl", "Dog – Pup"],
+    correct: "There – Their"
   },
   {
-    question: "Which of these shows possessive pronoun?",
-    options: ["Mine", "Me", "I", "We"],
-    correct: "Mine"
+    question: "Which is a suitable salutation for a friendly letter?",
+    options: ["Yours faithfully", "Dear Bestie,", "Dear Sir,", "To whom it may concern"],
+    correct: "Dear Bestie,"
   },
   {
-    question: "Pick a demonstrative pronoun:",
-    options: ["This", "He", "We", "I"],
-    correct: "This"
+    question: "What is the opposite of 'ancient'?",
+    options: ["Old", "Modern", "Past", "Early"],
+    correct: "Modern"
   },
   {
-    question: "Which shows comparison?",
-    options: ["Big", "Bigger", "Biggest", "Very big"],
-    correct: "Bigger"
+    question: "Which sentence shows a metaphor?",
+    options: [
+      "He is as fast as lightning.",
+      "He is a lion in the fight.",
+      "He looks like a fighter.",
+      "He fights bravely."
+    ],
+    correct: "He is a lion in the fight."
   },
   {
-    question: "Choose the correct word order: ___",
-    options: ["Book read I", "I read book", "Read I book", "I read a book"],
-    correct: "I read a book"
+    question: "Which of these is an abstract noun?",
+    options: ["Love", "Chair", "Book", "Table"],
+    correct: "Love"
   },
   {
-    question: "Which is a possessive noun?",
-    options: ["Boy", "Boys", "Boy's", "Boys'"],
-    correct: "Boy's"
+    question: "Pick a correctly punctuated list:",
+    options: ["I bought rice beans yam.", "I bought: rice, beans, and yam.", "I bought rice, beans, and yam.", "I bought rice beans, and yam"],
+    correct: "I bought rice, beans, and yam."
   },
   {
-    question: "Which one is a conjunction?",
-    options: ["Because", "Big", "Fast", "She"],
-    correct: "Because"
+    question: "Which shows a compound sentence?",
+    options: ["I ran.", "He walked and she ran.", "He jumps.", "The boy smiles."],
+    correct: "He walked and she ran."
   },
   {
-    question: "Choose a correct prefix word:",
-    options: ["Unhappy", "Disjoy", "Nonrun", "Miswork"],
-    correct: "Unhappy"
+    question: "What is the purpose of a full stop?",
+    options: ["To separate ideas", "To show question", "To end a sentence", "To begin sentence"],
+    correct: "To end a sentence"
   },
   {
-    question: "Which one shows question form?",
-    options: ["He is coming", "Is he coming?", "He comes", "He come"],
-    correct: "Is he coming?"
+    question: "Identify the type of pronoun: 'Those are mine.'",
+    options: ["Reflexive", "Demonstrative", "Possessive", "Personal"],
+    correct: "Possessive"
   },
   {
-    question: "Which is an antonym for 'difficult'?",
-    options: ["Easy", "Hard", "Slow", "Fast"],
-    correct: "Easy"
+    question: "Which is the correct reported speech?",
+    options: [
+      "'I am tired,' she said.",
+      "She said that she was tired.",
+      "She said, I am tired.",
+      "She say she tired."
+    ],
+    correct: "She said that she was tired."
   },
   {
-    question: "Choose a pair of synonyms:",
-    options: ["Hot – Cold", "Big – Large", "Small – Big", "Tall – Short"],
-    correct: "Big – Large"
+    question: "Which is an example of a modal verb?",
+    options: ["Can", "Play", "Sing", "Go"],
+    correct: "Can"
   },
   {
-    question: "Which is a suitable word to complete: 'The man is very ___'",
-    options: ["Kind", "Kindly", "Kindness", "Kinded"],
-    correct: "Kind"
+    question: "Choose a suitable idiom: 'He kicked the bucket' means...",
+    options: ["He played football", "He died", "He kicked something", "He got angry"],
+    correct: "He died"
   },
   {
-    question: "What part of speech is 'book'?",
-    options: ["Noun", "Verb", "Adjective", "Adverb"],
-    correct: "Noun"
+    question: "Which word is NOT a conjunction?",
+    options: ["And", "But", "Because", "Beautiful"],
+    correct: "Beautiful"
   },
   {
-    question: "Choose a complete sentence:",
-    options: ["Running fast.", "He fast.", "He is fast.", "Is fast he."],
-    correct: "He is fast."
+    question: "Which sentence is grammatically correct?",
+    options: ["I has gone", "He have a dog", "She is kind", "They is late"],
+    correct: "She is kind"
+  },
+  {
+    question: "Choose a word with a prefix:",
+    options: ["Unfair", "Fair", "Fairer", "Fairness"],
+    correct: "Unfair"
+  },
+  {
+    question: "What is the comparative form of 'good'?",
+    options: ["Gooder", "Better", "More good", "Best"],
+    correct: "Better"
+  },
+  {
+    question: "Which word is a conjunction?",
+    options: ["Or", "She", "Cat", "Play"],
+    correct: "Or"
+  },
+  {
+    question: "What is the correct order in letter writing?",
+    options: ["Address, Date, Body, Closing", "Body, Closing, Address", "Signature, Body, Heading", "Address, Body, Date"],
+    correct: "Address, Date, Body, Closing"
+  },
+  {
+    question: "Choose the word with correct spelling:",
+    options: ["Febuary", "February", "Febrary", "Febraury"],
+    correct: "February"
+  },
+  {
+    question: "Which sentence is in past perfect tense?",
+    options: ["I have eaten.", "I had eaten.", "I eat rice.", "I will eat soon."],
+    correct: "I had eaten."
+  },
+  {
+    question: "Which is an example of a gerund?",
+    options: ["Swimming", "Swim", "Swam", "Swims"],
+    correct: "Swimming"
+  },
+  {
+    question: "What does 'punctuation' mean?",
+    options: ["Use of symbols to separate sentences", "Writing letters", "Reading words", "Capitalization only"],
+    correct: "Use of symbols to separate sentences"
+  },
+  {
+    question: "Identify the complex sentence:",
+    options: [
+      "He reads books.",
+      "I went out because it was sunny.",
+      "I play and she sings.",
+      "They ran fast."
+    ],
+    correct: "I went out because it was sunny."
+  },
+  {
+    question: "Which of these is a metaphor?",
+    options: ["The moon is like a lamp.", "The moon is a lamp.", "The moon is shining.", "The moon shines brightly."],
+    correct: "The moon is a lamp."
+  },
+  {
+    question: "What is a 'conclusion' in comprehension?",
+    options: ["The start", "The middle", "The end or summary", "The date"],
+    correct: "The end or summary"
+  },
+  {
+    question: "Pick the correct question tag: 'He can swim, ___?'",
+    options: ["can he?", "does he?", "can't he?", "won’t he?"],
+    correct: "can't he?"
+  },
+  {
+    question: "Which of these shows reported question?",
+    options: ["He asked, 'Are you happy?'", "He asked if I was happy", "Are you happy?", "He ask are you happy?"],
+    correct: "He asked if I was happy"
   }
 ];
 
