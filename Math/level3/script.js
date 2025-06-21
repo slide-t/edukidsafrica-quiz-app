@@ -211,10 +211,208 @@ const questions = [
     question: "What is the volume of a cube with side 3 cm?",
     options: ["9 cm³", "27 cm³", "18 cm³", "12 cm³"],
     correct: "27 cm³"
+  },
+  {
+    question: "What is the sum of the angles in a triangle?",
+    options: ["180°", "360°", "90°", "270°"],
+    correct: "180°"
+  },
+  {
+    question: "How many sides does a hexagon have?",
+    options: ["5", "6", "8", "7"],
+    correct: "6"
+  },
+  {
+    question: "What is the perimeter of a square with side 9 cm?",
+    options: ["36 cm", "18 cm", "27 cm", "30 cm"],
+    correct: "36 cm"
+  },
+  {
+    question: "What is the place value of 7 in 7,532?",
+    options: ["Thousands", "Hundreds", "Tens", "Units"],
+    correct: "Thousands"
+  },
+  {
+    question: "Convert ¾ to a percentage.",
+    options: ["75%", "25%", "50%", "90%"],
+    correct: "75%"
+  },
+  {
+    question: "Find the average of 10, 20, 30, and 40.",
+    options: ["25", "20", "30", "35"],
+    correct: "25"
+  },
+  {
+    question: "What is the missing number: 64, ___, 16, 8",
+    options: ["32", "48", "24", "56"],
+    correct: "32"
+  },
+  {
+    question: "Which fraction is equivalent to 0.5?",
+    options: ["½", "⅓", "¾", "⅛"],
+    correct: "½"
+  },
+  {
+    question: "How many grams are in 2.5kg?",
+    options: ["2500g", "250g", "200g", "1500g"],
+    correct: "2500g"
+  },
+  {
+    question: "What is the smallest prime number?",
+    options: ["2", "1", "3", "5"],
+    correct: "2"
+  },
+  {
+    question: "Which of these is a multiple of 12?",
+    options: ["24", "18", "15", "10"],
+    correct: "24"
+  },
+  {
+    question: "Find the square of 11.",
+    options: ["121", "100", "144", "132"],
+    correct: "121"
+  },
+  {
+    question: "What is 2³ (2 raised to power 3)?",
+    options: ["8", "6", "9", "4"],
+    correct: "8"
+  },
+  {
+    question: "What is the area of a rectangle 5cm by 4cm?",
+    options: ["20cm²", "18cm²", "9cm²", "25cm²"],
+    correct: "20cm²"
+  },
+  {
+    question: "Convert 0.75 to a fraction.",
+    options: ["¾", "½", "⅛", "⅓"],
+    correct: "¾"
+  },
+  {
+    question: "Find the value of 10% of 150.",
+    options: ["15", "10", "20", "25"],
+    correct: "15"
+  },
+  {
+    question: "What is the mode in 3, 5, 5, 7, 8?",
+    options: ["5", "3", "7", "8"],
+    correct: "5"
+  },
+  {
+    question: "How many milliliters are in 3.5 litres?",
+    options: ["3500ml", "300ml", "35ml", "3000ml"],
+    correct: "3500ml"
+  },
+  {
+    question: "What is 5% of 200?",
+    options: ["10", "5", "20", "15"],
+    correct: "10"
+  },
+  {
+    question: "How many edges does a cube have?",
+    options: ["12", "6", "8", "4"],
+    correct: "12"
+  },
+  {
+    question: "Which number is a square number?",
+    options: ["49", "45", "63", "52"],
+    correct: "49"
+  },
+  {
+    question: "What is 1 hour 45 minutes in minutes?",
+    options: ["105 mins", "100 mins", "90 mins", "110 mins"],
+    correct: "105 mins"
+  },
+  {
+    question: "Express ⅝ as a decimal.",
+    options: ["0.625", "0.58", "0.75", "0.85"],
+    correct: "0.625"
+  },
+  {
+    question: "Which figure has only one curved surface?",
+    options: ["Sphere", "Cube", "Cuboid", "Square"],
+    correct: "Sphere"
+  },
+  {
+    question: "If a = 5 and b = 2, what is a² + b²?",
+    options: ["29", "25", "30", "35"],
+    correct: "29"
+  },
+  {
+    question: "What is the median of 3, 5, 7, 9, 11?",
+    options: ["7", "5", "9", "6"],
+    correct: "7"
+  },
+  {
+    question: "What is the volume of a cube with side 3cm?",
+    options: ["27cm³", "9cm³", "18cm³", "36cm³"],
+    correct: "27cm³"
+  },
+  {
+    question: "What is 3.25 as a fraction?",
+    options: ["13/4", "7/2", "11/4", "6/3"],
+    correct: "13/4"
+  },
+  {
+    question: "Round 4.67 to the nearest whole number.",
+    options: ["5", "4", "6", "4.5"],
+    correct: "5"
+  },
+  {
+    question: "A triangle with equal sides is called?",
+    options: ["Equilateral", "Isosceles", "Scalene", "Right-angled"],
+    correct: "Equilateral"
+  },
+  {
+    question: "Find the difference: ⅚ − ⅓",
+    options: ["½", "¼", "⅔", "⅙"],
+    correct: "½"
+  },
+  {
+    question: "Which of these is a factor of 36?",
+    options: ["6", "7", "9", "11"],
+    correct: "6"
+  },
+  {
+    question: "What is the next number in: 2, 4, 8, 16, __",
+    options: ["32", "20", "18", "28"],
+    correct: "32"
+  },
+  {
+    question: "Divide 360° equally among 4 angles.",
+    options: ["90° each", "180° each", "60° each", "120° each"],
+    correct: "90° each"
+  },
+  {
+    question: "What is the HCF of 12 and 18?",
+    options: ["6", "3", "9", "2"],
+    correct: "6"
+  },
+  {
+    question: "Simplify: ⅘ × ½",
+    options: ["⅖", "⅗", "¼", "⅛"],
+    correct: "⅖"
+  },
+  {
+    question: "Find ⅓ of 60.",
+    options: ["20", "30", "15", "10"],
+    correct: "20"
+  },
+  {
+    question: "Convert 1.2 to a fraction.",
+    options: ["6/5", "3/2", "12/10", "4/5"],
+    correct: "6/5"
+  },
+  {
+    question: "What is the opposite of addition?",
+    options: ["Subtraction", "Division", "Multiplication", "Fraction"],
+    correct: "Subtraction"
+  },
+  {
+    question: "What is the sum of all angles in a quadrilateral?",
+    options: ["360°", "180°", "270°", "90°"],
+    correct: "360°"
   }
 ];
-
-
 
 
 let current = 0;
