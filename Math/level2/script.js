@@ -1,318 +1,67 @@
 const questions = [
-  {
-    question: "Which is the correct plural of 'child'?",
-    options: ["Childs", "Children", "Childes", "Childrens"],
-    correct: "Children"
-  },
-  {
-    question: "Identify the verb in the sentence: 'She runs every morning.'",
-    options: ["She", "Runs", "Every", "Morning"],
-    correct: "Runs"
-  },
-  {
-    question: "What is the opposite of 'brave'?",
-    options: ["Fearless", "Shy", "Cowardly", "Strong"],
-    correct: "Cowardly"
-  },
-  {
-    question: "Which word is a noun?",
-    options: ["Beautiful", "Quickly", "Dog", "Jump"],
-    correct: "Dog"
-  },
-  {
-    question: "Choose the correct punctuation: 'How are you'",
-    options: ["How are you.", "How are you!", "How are you?", "How are you,"],
-    correct: "How are you?"
-  },
-  {
-    question: "What is the correct past tense of 'go'?",
-    options: ["Goes", "Gone", "Going", "Went"],
-    correct: "Went"
-  },
-  {
-    question: "Which is a question word?",
-    options: ["Play", "When", "Book", "Happy"],
-    correct: "When"
-  },
-  {
-    question: "Which of these is a pronoun?",
-    options: ["She", "Car", "House", "Red"],
-    correct: "She"
-  },
-  {
-    question: "Pick the sentence with a capital letter and full stop.",
-    options: [
-      "i like mango",
-      "I like mango",
-      "i like mango.",
-      "I like mango."
-    ],
-    correct: "I like mango."
-  },
-  {
-    question: "What is a compound word?",
-    options: [
-      "Two words joined to make one",
-      "A long sentence",
-      "A difficult word",
-      "A broken word"
-    ],
-    correct: "Two words joined to make one"
-  },
-  {
-    question: "Choose the correct spelling:",
-    options: ["Recieve", "Receive", "Receeve", "Receve"],
-    correct: "Receive"
-  },
-  {
-    question: "Which word is an adjective?",
-    options: ["Soft", "Run", "Gently", "Dog"],
-    correct: "Soft"
-  },
-  {
-    question: "Which is a command sentence?",
-    options: ["What is your name?", "Sit down.", "The boy is tall.", "She is eating."],
-    correct: "Sit down."
-  },
-  {
-    question: "What is the opposite of 'early'?",
-    options: ["Late", "Fast", "Long", "Soon"],
-    correct: "Late"
-  },
-  {
-    question: "What does the word 'bark' mean in 'The dog barked loudly'?",
-    options: ["Tree covering", "Cry of a dog", "Wood", "Scratch"],
-    correct: "Cry of a dog"
-  },
-  {
-    question: "What is a synonym for 'happy'?",
-    options: ["Sad", "Angry", "Joyful", "Tired"],
-    correct: "Joyful"
-  },
-  {
-    question: "Which is a declarative sentence?",
-    options: ["Close the door.", "Is that your book?", "I am hungry.", "Where are you?"],
-    correct: "I am hungry."
-  },
-  {
-    question: "Pick a sentence with correct grammar.",
-    options: ["He going school", "He go to school", "He is going to school", "He gone to school"],
-    correct: "He is going to school"
-  },
-  {
-    question: "Which part of speech is 'quickly'?",
-    options: ["Noun", "Adjective", "Adverb", "Verb"],
-    correct: "Adverb"
-  },
-  {
-    question: "Which is a preposition?",
-    options: ["Under", "Walk", "Fast", "Green"],
-    correct: "Under"
-  },
-  {
-    question: "What is the correct article: '___ apple a day keeps the doctor away.'",
-    options: ["An", "A", "The", "Some"],
-    correct: "An"
-  },
-  {
-    question: "Choose a correct plural noun:",
-    options: ["Foots", "Feets", "Feet", "Foot"],
-    correct: "Feet"
-  },
-  {
-    question: "What is a sentence?",
-    options: [
-      "A group of letters",
-      "A single word",
-      "A group of words with meaning",
-      "A long phrase"
-    ],
-    correct: "A group of words with meaning"
-  },
-  {
-    question: "Which is a suitable question tag: 'You are coming, ___?'",
-    options: ["is it", "aren’t you", "will it", "do you"],
-    correct: "aren’t you"
-  },
-  {
-    question: "Which is an example of a proper noun?",
-    options: ["Dog", "Girl", "Nigeria", "Book"],
-    correct: "Nigeria"
-  },
-  {
-    question: "Pick the correctly punctuated sentence.",
-    options: [
-      "wow that is amazing",
-      "Wow! That is amazing.",
-      "wow That is amazing!",
-      "Wow that is amazing"
-    ],
-    correct: "Wow! That is amazing."
-  },
-  {
-    question: "Which is a verb?",
-    options: ["Run", "Fast", "Beautiful", "Angry"],
-    correct: "Run"
-  },
-  {
-    question: "Identify the adjective: 'The small boy is happy.'",
-    options: ["Boy", "Is", "Small", "Happy"],
-    correct: "Small"
-  },
-  {
-    question: "Which sentence shows future tense?",
-    options: ["She danced", "She is dancing", "She dances", "She will dance"],
-    correct: "She will dance"
-  },
-  {
-    question: "What does the contraction 'don’t' mean?",
-    options: ["Do not", "Does not", "Did not", "Don it"],
-    correct: "Do not"
-  },
-  {
-    question: "What is the antonym of 'strong'?",
-    options: ["Weak", "Tall", "Soft", "Fast"],
-    correct: "Weak"
-  },
-  {
-    question: "Which of the following is not a punctuation mark?",
-    options: [".", ",", "!", "@"],
-    correct: "@"
-  },
-  {
-    question: "Which is an exclamation?",
-    options: ["Oh no!", "I can run", "What are you doing?", "I ate rice"],
-    correct: "Oh no!"
-  },
-  {
-    question: "Which word completes this: 'The ____ is barking.'",
-    options: ["Boy", "Dog", "Pen", "Bag"],
-    correct: "Dog"
-  },
-  {
-    question: "Which shows present continuous tense?",
-    options: ["He walk", "He walks", "He is walking", "He walked"],
-    correct: "He is walking"
-  },
-  {
-    question: "Which is a homophone for 'sun'?",
-    options: ["Son", "Soon", "Sin", "Seen"],
-    correct: "Son"
-  },
-  {
-    question: "Choose a pair of rhyming words.",
-    options: ["Chair – Table", "Fun – Run", "Cat – Dog", "Big – Small"],
-    correct: "Fun – Run"
-  },
-  {
-    question: "Identify the object: 'She threw the ball.'",
-    options: ["She", "Threw", "Ball", "The"],
-    correct: "Ball"
-  },
-  {
-    question: "What is the meaning of 'polite'?",
-    options: ["Rude", "Friendly", "Respectful", "Angry"],
-    correct: "Respectful"
-  },
-  {
-    question: "Complete: 'I am _____ to school now.'",
-    options: ["going", "gone", "goes", "went"],
-    correct: "going"
-  },
-  {
-    question: "Pick a sentence in past tense:",
-    options: ["He eats food.", "He is eating food.", "He ate food.", "He eat food."],
-    correct: "He ate food."
-  },
-  {
-    question: "What is the collective noun for 'cows'?",
-    options: ["A group", "A herd", "A team", "A school"],
-    correct: "A herd"
-  },
-  {
-    question: "What is a synonym for 'fast'?",
-    options: ["Quick", "Slow", "Small", "Big"],
-    correct: "Quick"
-  },
-  {
-    question: "Which sentence is correct?",
-    options: ["The cat sleep.", "The cat sleeps.", "The cat sleeping.", "The cat sleeped."],
-    correct: "The cat sleeps."
-  },
-  {
-    question: "Which sentence is in passive voice?",
-    options: ["He wrote a letter.", "The letter was written by him.", "He is writing a letter.", "He writes letters."],
-    correct: "The letter was written by him."
-  },
-  {
-    question: "Which of these shows possessive pronoun?",
-    options: ["Mine", "Me", "I", "We"],
-    correct: "Mine"
-  },
-  {
-    question: "Pick a demonstrative pronoun:",
-    options: ["This", "He", "We", "I"],
-    correct: "This"
-  },
-  {
-    question: "Which shows comparison?",
-    options: ["Big", "Bigger", "Biggest", "Very big"],
-    correct: "Bigger"
-  },
-  {
-    question: "Choose the correct word order: ___",
-    options: ["Book read I", "I read book", "Read I book", "I read a book"],
-    correct: "I read a book"
-  },
-  {
-    question: "Which is a possessive noun?",
-    options: ["Boy", "Boys", "Boy's", "Boys'"],
-    correct: "Boy's"
-  },
-  {
-    question: "Which one is a conjunction?",
-    options: ["Because", "Big", "Fast", "She"],
-    correct: "Because"
-  },
-  {
-    question: "Choose a correct prefix word:",
-    options: ["Unhappy", "Disjoy", "Nonrun", "Miswork"],
-    correct: "Unhappy"
-  },
-  {
-    question: "Which one shows question form?",
-    options: ["He is coming", "Is he coming?", "He comes", "He come"],
-    correct: "Is he coming?"
-  },
-  {
-    question: "Which is an antonym for 'difficult'?",
-    options: ["Easy", "Hard", "Slow", "Fast"],
-    correct: "Easy"
-  },
-  {
-    question: "Choose a pair of synonyms:",
-    options: ["Hot – Cold", "Big – Large", "Small – Big", "Tall – Short"],
-    correct: "Big – Large"
-  },
-  {
-    question: "Which is a suitable word to complete: 'The man is very ___'",
-    options: ["Kind", "Kindly", "Kindness", "Kinded"],
-    correct: "Kind"
-  },
-  {
-    question: "What part of speech is 'book'?",
-    options: ["Noun", "Verb", "Adjective", "Adverb"],
-    correct: "Noun"
-  },
-  {
-    question: "Choose a complete sentence:",
-    options: ["Running fast.", "He fast.", "He is fast.", "Is fast he."],
-    correct: "He is fast."
-  }
-];
+  { question: "What is 24 ÷ 6?", options: ["3", "4", "6", "5"], correct: "4" },
+  { question: "Multiply: 7 × 5", options: ["30", "35", "40", "25"], correct: "35" },
+  { question: "What is 100 − 45?", options: ["55", "65", "75", "45"], correct: "55" },
+  { question: "Write ⅓ as a decimal.", options: ["0.25", "0.33", "0.75", "1.3"], correct: "0.33" },
+  { question: "How many millilitres in 1 litre?", options: ["10", "100", "1000", "500"], correct: "1000" },
+  { question: "Which is a prime number?", options: ["9", "12", "7", "15"], correct: "7" },
+  { question: "Find the missing number: 8, 16, __, 32", options: ["20", "24", "28", "24"], correct: "24" },
+  { question: "What is the sum of 87 and 45?", options: ["132", "122", "110", "125"], correct: "132" },
+  { question: "Roman numeral for 50 is?", options: ["X", "L", "C", "V"], correct: "L" },
+  { question: "Find the value of: 6²", options: ["36", "12", "18", "30"], correct: "36" },
 
+  { question: "What is 0.5 + 0.25?", options: ["0.50", "0.70", "0.75", "1.0"], correct: "0.75" },
+  { question: "What is ⅓ of 60?", options: ["15", "30", "20", "25"], correct: "20" },
+  { question: "Estimate 49 + 51", options: ["90", "100", "110", "120"], correct: "100" },
+  { question: "What is the perimeter of a square with side 6cm?", options: ["12cm", "18cm", "24cm", "36cm"], correct: "24cm" },
+  { question: "Which is the largest: ¾, ⅔, ½?", options: ["¾", "⅔", "½", "All equal"], correct: "¾" },
+  { question: "Area of rectangle: 6cm × 4cm", options: ["20cm²", "24cm²", "16cm²", "26cm²"], correct: "24cm²" },
+  { question: "Simplify: 12 ÷ (3 + 1)", options: ["4", "3", "2", "1"], correct: "3" },
+  { question: "Which of these is not an even number?", options: ["2", "6", "9", "10"], correct: "9" },
+  { question: "5 tens and 6 ones equals?", options: ["65", "56", "66", "55"], correct: "56" },
+  { question: "Convert 1500g to kg", options: ["1.5kg", "15kg", "150kg", "0.15kg"], correct: "1.5kg" },
 
+  { question: "Write ¾ as decimal", options: ["0.25", "0.5", "0.75", "1.25"], correct: "0.75" },
+  { question: "Write 90 in Roman numerals", options: ["L", "XC", "IX", "XL"], correct: "XC" },
+  { question: "How many seconds in 5 minutes?", options: ["300", "60", "150", "200"], correct: "300" },
+  { question: "Which is correct? 4 × (2 + 3)", options: ["20", "16", "12", "10"], correct: "20" },
+  { question: "What is 125 − 25?", options: ["100", "110", "90", "120"], correct: "100" },
+  { question: "How many faces does a cube have?", options: ["4", "6", "8", "12"], correct: "6" },
+  { question: "Which is divisible by 3?", options: ["21", "22", "20", "17"], correct: "21" },
+  { question: "What is 3⁵ (3 to power 5)?", options: ["243", "125", "15", "81"], correct: "243" },
+  { question: "Mean of 4, 6, 10?", options: ["8", "7", "6.5", "10"], correct: "6.67" },
+  { question: "How many quarters make 1?", options: ["2", "3", "4", "5"], correct: "4" },
 
+  { question: "Which unit is used to measure weight?", options: ["Litres", "Kilogram", "Centimetre", "Metre"], correct: "Kilogram" },
+  { question: "Which number has 6 in hundreds place: 654?", options: ["4", "5", "6", "None"], correct: "6" },
+  { question: "Write 1⁄10 as decimal", options: ["0.01", "0.1", "0.10", "0.001"], correct: "0.1" },
+  { question: "Find LCM of 3 and 4", options: ["6", "9", "12", "24"], correct: "12" },
+  { question: "What is 10% of 200?", options: ["10", "20", "30", "25"], correct: "20" },
+  { question: "Which is a square number?", options: ["3", "4", "6", "7"], correct: "4" },
+  { question: "12 is divisible by?", options: ["5", "4", "7", "9"], correct: "4" },
+  { question: "How many 10s in 230?", options: ["20", "23", "30", "50"], correct: "23" },
+  { question: "Which of these is a factor of 18?", options: ["2", "5", "7", "11"], correct: "2" },
+  { question: "How many days in a leap year?", options: ["365", "364", "366", "360"], correct: "366" },
+
+  { question: "Which is greater: 0.9 or 0.89?", options: ["0.89", "Equal", "0.9", "None"], correct: "0.9" },
+  { question: "What is the mode of 3, 3, 2, 4, 3?", options: ["2", "3", "4", "No mode"], correct: "3" },
+  { question: "Perimeter of a square of side 5cm", options: ["10cm", "15cm", "20cm", "25cm"], correct: "20cm" },
+  { question: "If a class has 8 rows and 5 columns, how many seats?", options: ["40", "45", "50", "35"], correct: "40" },
+  { question: "What is ¼ of 80?", options: ["15", "20", "25", "30"], correct: "20" },
+  { question: "Volume of cube with side 3cm", options: ["9cm³", "18cm³", "27cm³", "36cm³"], correct: "27cm³" },
+  { question: "Which number is both even and a multiple of 3?", options: ["2", "4", "6", "9"], correct: "6" },
+  { question: "Which angle is less than 90°?", options: ["Acute", "Right", "Obtuse", "Straight"], correct: "Acute" },
+  { question: "10³ equals?", options: ["100", "1000", "10000", "30"], correct: "1000" },
+  { question: "6 ÷ ½ equals?", options: ["3", "12", "1", "6"], correct: "12" },
+
+  { question: "Write ⅖ as decimal", options: ["0.2", "0.25", "0.4", "0.5"], correct: "0.4" },
+  { question: "A triangle has how many angles?", options: ["2", "3", "4", "5"], correct: "3" },
+  { question: "What is the product of 11 and 3?", options: ["33", "13", "44", "31"], correct: "33" },
+  { question: "Half of 1 litre is?", options: ["100ml", "500ml", "1.5L", "250ml"], correct: "500ml" },
+  { question: "Write the expanded form: 305", options: ["300+5", "300+50", "305", "30+5"], correct: "300+5" },
+  { question: "Sum of angles in triangle is?", options: ["90°", "180°", "270°", "360°"], correct: "180°" }
+
+  
 let current = 0;
 let score = 0;
 let mistakes = 0;
@@ -403,10 +152,10 @@ function showResult() {
   const box = document.getElementById("question-box");
   box.innerHTML = `
     <h2>Your Score: ${score}/${questions.length}</h2>
-    <p>${score >= 45 ? "🎉 Well done!" : "Try again to score 45 and above!"}</p>
+    <p>${score >= 55 ? "🎉 Well done!" : "Try again to score 45 and above!"}</p>
   `;
 
-  if (score >= 45) {
+  if (score >= 55) {
     document.getElementById("next-level").style.display = "inline-block";
   }
 }
