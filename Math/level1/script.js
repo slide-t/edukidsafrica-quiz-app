@@ -155,7 +155,7 @@ function showResult() {
 }
 
 function goToNextLevel() {
-  window.location.href = "math-level2.html";
+  window.location.href = "https://edukidsafrica-games.blogspot.com/p/math-quiz-level-2.html";
 }
 
 // Only run when the DOM is fully loaded
