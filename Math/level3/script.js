@@ -514,7 +514,7 @@ function showResult() {
 }
 
 function goToNextLevel() {
-  window.location.href = "math-level2.html";
+  window.location.href = "math-advanvedlevel.html";
 }
 
 // Only run when the DOM is fully loaded
