@@ -102,7 +102,156 @@ const questions = [ { question: "Which material is best for sculpting a bust?", 
   correct: "Celebration and identity"
 },
 
-
+{
+  question: "Which of these is a form of three-dimensional art?",
+  options: ["Sketching", "Painting", "Sculpture", "Coloring"],
+  correct: "Sculpture"
+},
+{
+  question: "What instrument is commonly used in Igbo traditional music?",
+  options: ["Shekere", "Ekwe", "Saxophone", "Konga"],
+  correct: "Ekwe"
+},
+{
+  question: "Which of the following is a type of traditional Nigerian drama?",
+  options: ["Opera", "Alarinjo", "Broadway", "Mime"],
+  correct: "Alarinjo"
+},
+{
+  question: "What is the act of expressing feelings through body movement and rhythm?",
+  options: ["Painting", "Dance", "Photography", "Craft"],
+  correct: "Dance"
+},
+{
+  question: "What color is produced by mixing blue and red?",
+  options: ["Orange", "Purple", "Brown", "Green"],
+  correct: "Purple"
+},
+{
+  question: "Which art element defines the surface quality of an object?",
+  options: ["Texture", "Shape", "Color", "Line"],
+  correct: "Texture"
+},
+{
+  question: "Which material is suitable for papier-mâché craft?",
+  options: ["Plastic", "Cardboard", "Paper", "Metal"],
+  correct: "Paper"
+},
+{
+  question: "Which traditional attire is common among the Hausa people?",
+  options: ["Agbada", "Babban Riga", "Isi Agu", "Kente"],
+  correct: "Babban Riga"
+},
+{
+  question: "Which dance is popular among the Efik people of Nigeria?",
+  options: ["Ekombi", "Bata", "Koroso", "Atilogwu"],
+  correct: "Ekombi"
+},
+{
+  question: "What does warm color include?",
+  options: ["Blue, Green, Purple", "Red, Orange, Yellow", "Black, White, Grey", "Pink, Cyan, Teal"],
+  correct: "Red, Orange, Yellow"
+},
+{
+  question: "What is the use of a loom in traditional craft?",
+  options: ["Molding clay", "Painting surfaces", "Weaving fabric", "Carving wood"],
+  correct: "Weaving fabric"
+},
+{
+  question: "What is the act of drawing outlines called?",
+  options: ["Patterning", "Shading", "Sketching", "Molding"],
+  correct: "Sketching"
+},
+{
+  question: "Which of these is a festival that promotes cultural heritage?",
+  options: ["New Year", "Eyo Festival", "Christmas", "Easter"],
+  correct: "Eyo Festival"
+},
+{
+  question: "Which of the following is NOT a primary color?",
+  options: ["Red", "Blue", "Yellow", "Green"],
+  correct: "Green"
+},
+{
+  question: "Which Nigerian tribe is known for the Bata dance?",
+  options: ["Hausa", "Igbo", "Yoruba", "Ibibio"],
+  correct: "Yoruba"
+},
+{
+  question: "Which is a type of shading in drawing?",
+  options: ["Smudging", "Burning", "Cracking", "Coloring"],
+  correct: "Smudging"
+},
+{
+  question: "What is tie and dye mainly used for?",
+  options: ["Making beads", "Decorating walls", "Creating patterns on fabric", "Carving wood"],
+  correct: "Creating patterns on fabric"
+},
+{
+  question: "Which is NOT a function of music in the society?",
+  options: ["Entertainment", "Communication", "Medicine", "Ceremony"],
+  correct: "Medicine"
+},
+{
+  question: "Which of these is used to mix paints?",
+  options: ["Knife", "Palette", "Brush", "Bucket"],
+  correct: "Palette"
+},
+{
+  question: "Which cultural group performs the Egungun masquerade?",
+  options: ["Igbo", "Yoruba", "Tiv", "Ijaw"],
+  correct: "Yoruba"
+},
+{
+  question: "Which color scheme uses only shades of one color?",
+  options: ["Analogous", "Monochromatic", "Triadic", "Complementary"],
+  correct: "Monochromatic"
+},
+{
+  question: "What is the main feature of traditional folk music?",
+  options: ["Electric sound", "Cultural storytelling", "Modern lyrics", "Studio effects"],
+  correct: "Cultural storytelling"
+},
+{
+  question: "Which of these tools is essential for carving?",
+  options: ["Brush", "Chisel", "Ruler", "Pen"],
+  correct: "Chisel"
+},
+{
+  question: "Which of these is NOT a Nigerian traditional musical instrument?",
+  options: ["Shekere", "Ekwe", "Kalimba", "Udu"],
+  correct: "Kalimba"
+},
+{
+  question: "In sculpture, which material is commonly used?",
+  options: ["Sand", "Paint", "Clay", "Oil"],
+  correct: "Clay"
+},
+{
+  question: "What are cultural symbols often used for?",
+  options: ["Decoration", "Play", "Learning", "Identity"],
+  correct: "Identity"
+},
+{
+  question: "What art process involves making objects from molten metal?",
+  options: ["Weaving", "Carving", "Casting", "Painting"],
+  correct: "Casting"
+},
+{
+  question: "Which traditional attire is commonly worn by Igbo men?",
+  options: ["Isi Agu", "Buba", "Dashiki", "Babban Riga"],
+  correct: "Isi Agu"
+},
+{
+  question: "What is a color made by mixing equal parts of two primary colors?",
+  options: ["Tertiary color", "Neutral color", "Secondary color", "Primary color"],
+  correct: "Secondary color"
+},
+{
+  question: "Which of these is used to hold water while painting?",
+  options: ["Bowl", "Palette", "Canvas", "Brush"],
+  correct: "Bowl"
+}
 
 
 
@@ -119,14 +268,7 @@ const questions = [ { question: "Which material is best for sculpting a bust?", 
 
 
 
-/*
-const questions = [
-  { question: "Which word is the opposite of 'hot'?", options: ["Warm", "Cold", "Heat", "Fire"], correct: "Cold" },
-  { question: "Which word rhymes with 'dog'?", options: ["Dig", "Log", "Dock", "Dark"], correct: "Log" },
-  { question: "Choose the noun: The girl is kind.", options: ["Girl", "Kind", "Is", "The"], correct: "Girl" },
-  { "Pen", "She", "Has", "A"], correct: "Pen" },
-  { question: "Pick the correct word: They ___ playing.", options: ["Are", "Is", "Am", "Were"], correct: "Are" }
-];*/
+
 
 
 let current = 0;
