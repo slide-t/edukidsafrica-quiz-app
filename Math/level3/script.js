@@ -514,7 +514,7 @@ function showResult() {
 }
 
 function goToNextLevel() {
-  window.location.href = "math-advanvedlevel.html";
+  window.location.href = "https://slide-t.github.io/edukidsafrica-quiz-app/Math/Advance/index.html";
 }
 
 // Only run when the DOM is fully loaded
