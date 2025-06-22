@@ -354,7 +354,7 @@ function showResult() {
 }
 
 function goToNextLevel() {
-  window.location.href = "https://slide-t.github.io/edukidsafrica-quiz-app/English/level2/index.html";
+  window.location.href = "https://slide-t.github.io/edukidsafrica-quiz-app/CCA/level2/index.html";
 }
 
 // Only run when the DOM is fully loaded
