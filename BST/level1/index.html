@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic Science Quiz - Level 1</title>
+  <link rel="manifest" href="https://slide-t.github.io/edukidsafrica-quiz-app/common/manifest.json" />
+  <meta name="theme-color" content="#004080" />
+  <link rel="stylesheet" href="https://slide-t.github.io/edukidsafrica-quiz-app/common/styles.css">
+ <script>
+  // Disable right-click
+  document.addEventListener('contextmenu', event => event.preventDefault());
+
+  // Disable copy, paste, cut
+  document.addEventListener('copy', e => e.preventDefault());
+  document.addEventListener('cut', e => e.preventDefault());
+  document.addEventListener('paste', e => e.preventDefault());
+
+  // Disable certain key combinations
+  document.addEventListener('keydown', function(e) {
+    // Block Ctrl+ combinations
+    if (e.ctrlKey) {
+      let blockedKeys = ['c', 'v', 'u', 's', 'p', 'a', 'x'];
+      if (blockedKeys.includes(e.key.toLowerCase())) {
+        e.preventDefault();
+      }
+    }
+
+    // Block F12, Alt, Right-click key, Ctrl+Shift+I (Inspect)
+    if (
+      e.key === 'F12' || 
+      e.key === 'Alt' || 
+      (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i') ||
+      e.keyCode === 93 // right-click keyboard key
+    ) {
+      e.preventDefault();
+    }
+  });
+ </script>
+  
+  <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+    document.addEventListener('keydown', event => {
+      if (event.ctrlKey && ['c','v','u','s'].includes(event.key.toLowerCase())) {
+        event.preventDefault();
+      }
+    });
+  </script>
+</head>
+<body>
+  <div class="modal-overlay" id="quizModal">
+    <div class="modal-content">
+      <h2>🎮 Game Instructions</h2>
+      <ul>
+        <li>🧠 Answer 50 questions to complete the level.</li>
+        <li>✅ Get at least 45 correct to proceed to next level.</li>
+        <li>🕒 Each question has 10 seconds to answer.</li>
+        <li>🔒 Your data is safe. No tracking or cookies.</li>
+      </ul>
+      <p style="font-size: 14px; margin-top: 10px;">&copy; 2025 EduKids Africa. All rights reserved.</p>
+      <button onclick="startGame()">✅ Start Quiz</button>
+    </div>
+  </div>
+
+  <div class="container" style="display:none;">
+    <h1>Basic Science Quiz- Level 1</h1>
+    <div class="info-wrap">
+      <div id="score-box" class="info-box score-bg">
+        Score: <span id="score">0</span> | Mistakes: <span id="mistakes">0</span>
+      </div>
+      <div id="timer" class="info-box timer-bg">
+        Time: <span id="time">10</span>s
+      </div>
+    </div>
+    <div id="question-box" class="question-box">
+      <div id="question">Loading question...</div>
+      <div class="options">
+        <button onclick="checkAnswer(this)">Option 1</button>
+        <button onclick="checkAnswer(this)">Option 2</button>
+        <button onclick="checkAnswer(this)">Option 3</button>
+        <button onclick="checkAnswer(this)">Option 4</button>
+      </div>
+    </div>
+    <button id="next-level" onclick="goToNextLevel()">🎉 Proceed to Level 2</button>
+  </div>
+
+  <script src="script.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register("../../common/service-worker.js")
+    .then(() => console.log("✅ Service Worker Registered"))
+    .catch(err => console.error("❌ Service Worker Error", err));
+}
+</script>
+  
+  
+  <!--
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("../../common/service-worker.js")
+    .then(() => console.log("✅ Service Worker Registered"))
+    .catch(err => console.error("❌ Service Worker Error", err));
+  }
+</script>
+  -->
+  <script>
+  function startGame() {
+  document.getElementById("quizModal").style.display = "none";
+  document.querySelector(".container").style.display = "block";
+  renderQuestion();
+}
+  </script>
+  
+</body>
+          </html>
 
