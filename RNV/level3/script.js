@@ -1,5 +1,113 @@
 const questions = [
   {
+    "question": "Which of the following is a sign of patriotism?",
+    "options": ["Standing for the anthem", "Littering the road", "Avoiding tax", "Destroying school books"],
+    "answer": "Standing for the anthem"
+  },
+  {
+    "question": "What color stands for peace in the Nigerian flag?",
+    "options": ["White", "Green", "Black", "Blue"],
+    "answer": "White"
+  },
+  {
+    "question": "Why should we say the truth always?",
+    "options": ["To gain trust", "To deceive others", "To cheat", "To lie more"],
+    "answer": "To gain trust"
+  },
+  {
+    "question": "When you forgive someone, you are showing:",
+    "options": ["Tolerance", "Pride", "Anger", "Fear"],
+    "answer": "Tolerance"
+  },
+  {
+    "question": "A person who helps others without expecting anything is showing:",
+    "options": ["Kindness", "Wickedness", "Pride", "Fear"],
+    "answer": "Kindness"
+  },
+  {
+    "question": "Which of the following encourages unity in Nigeria?",
+    "options": ["National Youth Service", "Tribal war", "Discrimination", "Hate speech"],
+    "answer": "National Youth Service"
+  },
+  {
+    "question": "Where is the national flag hoisted daily?",
+    "options": ["In front of public buildings", "On private clothes", "On buses", "On notebooks"],
+    "answer": "In front of public buildings"
+  },
+  {
+    "question": "Why is corruption harmful to a nation?",
+    "options": ["It hinders development", "It brings jobs", "It improves roads", "It promotes truth"],
+    "answer": "It hinders development"
+  },
+  {
+    "question": "Who protects the rights of citizens in court?",
+    "options": ["The Judiciary", "The Army", "The Senate", "The Police"],
+    "answer": "The Judiciary"
+  },
+  {
+    "question": "Freedom of expression means:",
+    "options": ["Speaking freely with respect", "Talking carelessly", "Insulting others", "Breaking laws"],
+    "answer": "Speaking freely with respect"
+  },
+  {
+    "question": "What is the full meaning of INEC?",
+    "options": ["Independent National Electoral Commission", "International Nigerian Economic Committee", "Internet Network of Election Council", "Internal National Examination Council"],
+    "answer": "Independent National Electoral Commission"
+  },
+  {
+    "question": "A person who obeys traffic rules is showing:",
+    "options": ["Discipline", "Carelessness", "Anger", "Rudeness"],
+    "answer": "Discipline"
+  },
+  {
+    "question": "When someone keeps public secrets safe, it means they are:",
+    "options": ["Trustworthy", "Nosy", "Careless", "Forgetful"],
+    "answer": "Trustworthy"
+  },
+  {
+    "question": "Voting during elections is the duty of a:",
+    "options": ["Citizen", "Visitor", "Child", "Teacher"],
+    "answer": "Citizen"
+  },
+  {
+    "question": "Which value helps people work together?",
+    "options": ["Cooperation", "Greed", "Pride", "Cheating"],
+    "answer": "Cooperation"
+  },
+  {
+    "question": "What is the reward of being honest?",
+    "options": ["Trust and respect", "Punishment", "Rejection", "Loneliness"],
+    "answer": "Trust and respect"
+  },
+  {
+    "question": "What type of government allows people to vote?",
+    "options": ["Democracy", "Dictatorship", "Monarchy", "Anarchy"],
+    "answer": "Democracy"
+  },
+  {
+    "question": "The Coat of Arms is used to show:",
+    "options": ["Unity and strength", "Price of food", "Social media", "Weather"],
+    "answer": "Unity and strength"
+  },
+  {
+    "question": "Respecting traffic lights is a sign of:",
+    "options": ["Obedience", "Disobedience", "Anger", "Fear"],
+    "answer": "Obedience"
+  },
+  {
+    "question": "What promotes peaceful living among citizens?",
+    "options": ["Love and tolerance", "Hatred and anger", "Cheating", "Fighting"],
+    "answer": "Love and tolerance"
+  }
+
+];
+
+
+
+
+
+/*const questions = [
+  {
     "question": "Which of the following is a civic responsibility of citizens?",
     "options": ["Paying taxes", "Avoiding school", "Spreading rumours", "Dodging elections"],
     "answer": "Paying taxes"
