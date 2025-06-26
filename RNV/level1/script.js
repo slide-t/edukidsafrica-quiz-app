@@ -1,5 +1,71 @@
 const questions = [
   {
+    "question": "Why do we raise the national flag in schools?",
+    "options": ["To show respect for the country", "To dry it", "To clean windows", "To cover books"],
+    "answer": "To show respect for the country"
+  },
+  {
+    "question": "What does loyalty to Nigeria mean?",
+    "options": ["Support and love for the nation", "Fighting leaders", "Hiding from duty", "Avoiding elections"],
+    "answer": "Support and love for the nation"
+  },
+  {
+    "question": "Which of the following is a good national value?",
+    "options": ["Discipline", "Corruption", "Violence", "Cheating"],
+    "answer": "Discipline"
+  },
+  {
+    "question": "How do we show leadership at home?",
+    "options": ["Helping younger ones", "Refusing chores", "Fighting siblings", "Being lazy"],
+    "answer": "Helping younger ones"
+  },
+  {
+    "question": "A person who tells lies is said to lack ________.",
+    "options": ["Truthfulness", "Money", "Humor", "Pride"],
+    "answer": "Truthfulness"
+  },
+  {
+    "question": "What is the benefit of obeying traffic lights?",
+    "options": ["Prevents accidents", "Creates noise", "Blocks road", "Confuses people"],
+    "answer": "Prevents accidents"
+  },
+  {
+    "question": "What is one way to respect others?",
+    "options": ["Listen when they speak", "Interrupt them", "Laugh at them", "Ignore their ideas"],
+    "answer": "Listen when they speak"
+  },
+  {
+    "question": "The act of sharing is a sign of ________.",
+    "options": ["Kindness", "Jealousy", "Selfishness", "Pride"],
+    "answer": "Kindness"
+  },
+  {
+    "question": "How do we keep the environment clean?",
+    "options": ["By not littering", "Throwing trash on the road", "Burning plastics", "Spilling oil"],
+    "answer": "By not littering"
+  },
+  {
+    "question": "What is a good example of unity?",
+    "options": ["Playing as a team", "Fighting alone", "Cheating others", "Causing problems"],
+    "answer": "Playing as a team"
+  },
+
+    
+];
+
+
+
+
+
+
+
+
+
+
+
+/*
+const questions = [
+  {
     question: "Which is the correct plural of 'child'?",
     options: ["Childs", "Children", "Childes", "Childrens"],
     correct: "Children"
@@ -46,7 +112,7 @@ const questions = [
     correct: "Adverb"
   }
     
-];
+];*/
 
 
 
