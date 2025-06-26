@@ -101,6 +101,108 @@ const questions = [
     options: ["Topic", "Theme", "Moral", "Scene"],
     correct: "Moral"
   },
+  
+  {
+    "question": "Who wrote the novel *Arrow of God*?",
+    "options": ["Chinua Achebe", "Wole Soyinka", "Cyprian Ekwensi", "Chimamanda Ngozi Adichie"],
+    "answer": "Chinua Achebe"
+  },
+  {
+    "question": "Which of these is a theme commonly found in African literature?",
+    "options": ["Colonialism", "Aliens", "Robots", "Witchcraft"],
+    "answer": "Colonialism"
+  },
+  {
+    "question": "What is a stanza in poetry?",
+    "options": ["A verse or group of lines", "A character in a novel", "A book title", "A chapter"],
+    "answer": "A verse or group of lines"
+  },
+  {
+    "question": "The writer of *The Lion and the Jewel* is:",
+    "options": ["Wole Soyinka", "Ngugi wa Thiong’o", "J.P. Clark", "Ben Okri"],
+    "answer": "Wole Soyinka"
+  },
+  {
+    "question": "Which literary device is used in the phrase ‘as brave as a lion’?",
+    "options": ["Simile", "Metaphor", "Irony", "Personification"],
+    "answer": "Simile"
+  },
+  {
+    "question": "A story with animals acting like humans is known as?",
+    "options": ["Fable", "Myth", "Legend", "Play"],
+    "answer": "Fable"
+  },
+  {
+    "question": "Who is the protagonist in a story?",
+    "options": ["Main character", "Villain", "Narrator", "Publisher"],
+    "answer": "Main character"
+  },
+  {
+    "question": "What is an autobiography?",
+    "options": ["A book written by someone about their own life", "A book about another person’s life", "A poem", "A novel"],
+    "answer": "A book written by someone about their own life"
+  },
+  {
+    "question": "What does a playwright write?",
+    "options": ["Plays", "Poems", "Novels", "Essays"],
+    "answer": "Plays"
+  },
+  {
+    "question": "The setting of a story refers to?",
+    "options": ["Time and place", "Main idea", "Author's name", "Number of characters"],
+    "answer": "Time and place"
+  },
+  {
+    "question": "What is irony in literature?",
+    "options": ["A contrast between expectations and reality", "A loud noise", "An exaggeration", "A song"],
+    "answer": "A contrast between expectations and reality"
+  },
+  {
+    "question": "The word 'climax' in a story means?",
+    "options": ["Turning point", "Beginning", "Introduction", "Ending"],
+    "answer": "Turning point"
+  },
+  {
+    "question": "Who is a narrator?",
+    "options": ["One who tells the story", "Main actor", "Stage manager", "Publisher"],
+    "answer": "One who tells the story"
+  },
+  {
+    "question": "What type of poem tells a story?",
+    "options": ["Narrative poem", "Lyrical poem", "Haiku", "Ode"],
+    "answer": "Narrative poem"
+  },
+  {
+    "question": "What is the mood in literature?",
+    "options": ["The feeling created in the reader", "The author's nationality", "The number of characters", "The weather"],
+    "answer": "The feeling created in the reader"
+  },
+  {
+    "question": "Who is the author of *Things Fall Apart*?",
+    "options": ["Chinua Achebe", "Wole Soyinka", "Buchi Emecheta", "Ngugi wa Thiong’o"],
+    "answer": "Chinua Achebe"
+  },
+  {
+    "question": "What kind of story is *The Tortoise and the Hare*?",
+    "options": ["Fable", "Tragedy", "Drama", "Biography"],
+    "answer": "Fable"
+  },
+  {
+    "question": "In literature, what is conflict?",
+    "options": ["A struggle between opposing forces", "The background music", "A poem title", "The writer’s age"],
+    "answer": "A struggle between opposing forces"
+  },
+  {
+    "question": "Which of these is a genre of literature?",
+    "options": ["Drama", "Painting", "Dance", "Sculpture"],
+    "answer": "Drama"
+  },
+  {
+    "question": "What is the role of dialogue in drama?",
+    "options": ["To reveal character and move the story", "To paint scenery", "To edit videos", "To direct scenes"],
+    "answer": "To reveal character and move the story"
+  }
+
 
   
 ];
