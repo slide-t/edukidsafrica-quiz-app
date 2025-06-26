@@ -1,53 +1,60 @@
-
-const questions = [
+ const questions = [
   {
-    question: "Which is the correct plural of 'child'?",
-    options: ["Childs", "Children", "Childes", "Childrens"],
-    correct: "Children"
+    "question": "Why do we raise the national flag in schools?",
+    "options": ["To show respect for the country", "To dry it", "To clean windows", "To cover books"],
+    "answer": "To show respect for the country"
   },
   {
-    question: "Identify the verb in the sentence: 'She runs every morning.'",
-    options: ["She", "Runs", "Every", "Morning"],
-    correct: "Runs"
+    "question": "What does loyalty to Nigeria mean?",
+    "options": ["Support and love for the nation", "Fighting leaders", "Hiding from duty", "Avoiding elections"],
+    "answer": "Support and love for the nation"
   },
   {
-    question: "What is the opposite of 'brave'?",
-    options: ["Fearless", "Shy", "Cowardly", "Strong"],
-    correct: "Cowardly"
-  },
-  
-  {
-    question: "What is the opposite of 'early'?",
-    options: ["Late", "Fast", "Long", "Soon"],
-    correct: "Late"
+    "question": "Which of the following is a good national value?",
+    "options": ["Discipline", "Corruption", "Violence", "Cheating"],
+    "answer": "Discipline"
   },
   {
-    question: "What does the word 'bark' mean in 'The dog barked loudly'?",
-    options: ["Tree covering", "Cry of a dog", "Wood", "Scratch"],
-    correct: "Cry of a dog"
+    "question": "How do we show leadership at home?",
+    "options": ["Helping younger ones", "Refusing chores", "Fighting siblings", "Being lazy"],
+    "answer": "Helping younger ones"
   },
   {
-    question: "What is a synonym for 'happy'?",
-    options: ["Sad", "Angry", "Joyful", "Tired"],
-    correct: "Joyful"
+    "question": "A person who tells lies is said to lack ________.",
+    "options": ["Truthfulness", "Money", "Humor", "Pride"],
+    "answer": "Truthfulness"
   },
   {
-    question: "Which is a declarative sentence?",
-    options: ["Close the door.", "Is that your book?", "I am hungry.", "Where are you?"],
-    correct: "I am hungry."
+    "question": "What is the benefit of obeying traffic lights?",
+    "options": ["Prevents accidents", "Creates noise", "Blocks road", "Confuses people"],
+    "answer": "Prevents accidents"
   },
   {
-    question: "Pick a sentence with correct grammar.",
-    options: ["He going school", "He go to school", "He is going to school", "He gone to school"],
-    correct: "He is going to school"
+    "question": "What is one way to respect others?",
+    "options": ["Listen when they speak", "Interrupt them", "Laugh at them", "Ignore their ideas"],
+    "answer": "Listen when they speak"
   },
   {
-    question: "Which part of speech is 'quickly'?",
-    options: ["Noun", "Adjective", "Adverb", "Verb"],
-    correct: "Adverb"
+    "question": "The act of sharing is a sign of ________.",
+    "options": ["Kindness", "Jealousy", "Selfishness", "Pride"],
+    "answer": "Kindness"
+  },
+  {
+    "question": "How do we keep the environment clean?",
+    "options": ["By not littering", "Throwing trash on the road", "Burning plastics", "Spilling oil"],
+    "answer": "By not littering"
+  },
+  {
+    "question": "What is a good example of unity?",
+    "options": ["Playing as a team", "Fighting alone", "Cheating others", "Causing problems"],
+    "answer": "Playing as a team"
   }
-    
 ];
+  
+  
+  
+  
+
 
 
 
