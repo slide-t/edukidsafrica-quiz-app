@@ -1,52 +1,114 @@
 const questions = [
   {
-    question: "Which is the correct plural of 'child'?",
-    options: ["Childs", "Children", "Childes", "Childrens"],
-    correct: "Children"
+    "question": "Which of the following is a civic responsibility of citizens?",
+    "options": ["Paying taxes", "Avoiding school", "Spreading rumours", "Dodging elections"],
+    "answer": "Paying taxes"
   },
   {
-    question: "Identify the verb in the sentence: 'She runs every morning.'",
-    options: ["She", "Runs", "Every", "Morning"],
-    correct: "Runs"
+    "question": "What does the green color in Nigeria’s flag represent?",
+    "options": ["Agriculture", "War", "Water", "Peace"],
+    "answer": "Agriculture"
   },
   {
-    question: "What is the opposite of 'brave'?",
-    options: ["Fearless", "Shy", "Cowardly", "Strong"],
-    correct: "Cowardly"
+    "question": "Why do we sing the national anthem?",
+    "options": ["To show patriotism", "To waste time", "To start arguments", "To delay assembly"],
+    "answer": "To show patriotism"
   },
+  {
+    "question": "Which of these is a national symbol?",
+    "options": ["The Coat of Arms", "Television", "A Mobile Phone", "Wallet"],
+    "answer": "The Coat of Arms"
+  },
+  {
+    "question": "What does honesty help to build in a nation?",
+    "options": ["Trust", "Greed", "Crime", "Jealousy"],
+    "answer": "Trust"
+  },
+  {
+    "question": "What is the duty of the Nigeria Police Force?",
+    "options": ["To maintain law and order", "To build schools", "To clean roads", "To sing at events"],
+    "answer": "To maintain law and order"
+  },
+  {
+    "question": "Which of the following best shows respect for the national flag?",
+    "options": ["Not letting it touch the ground", "Tearing it", "Throwing it away", "Ignoring it"],
+    "answer": "Not letting it touch the ground"
+  },
+  {
+    "question": "Why is it important to vote in elections?",
+    "options": ["To choose leaders", "To play games", "To watch drama", "To avoid school"],
+    "answer": "To choose leaders"
+  },
+  {
+    "question": "The black shield in the coat of arms stands for what?",
+    "options": ["Fertile soil", "Anger", "Pride", "Sky"],
+    "answer": "Fertile soil"
+  },
+  {
+    "question": "One way to show discipline in school is:",
+    "options": ["Obeying rules", "Fighting", "Disobeying teachers", "Bullying others"],
+    "answer": "Obeying rules"
+  },
+  {
+    "question": "Which value is promoted when pupils help each other?",
+    "options": ["Cooperation", "Disrespect", "Greed", "Selfishness"],
+    "answer": "Cooperation"
+  },
+  {
+    "question": "A good citizen is one who:",
+    "options": ["Obeys the law", "Fights police", "Lies in court", "Destroys public property"],
+    "answer": "Obeys the law"
+  },
+  {
+    "question": "Which arm of government makes the law?",
+    "options": ["Legislative", "Executive", "Judiciary", "Police"],
+    "answer": "Legislative"
+  },
+  {
+    "question": "What is the color of peace in the Nigerian Army uniform?",
+    "options": ["White", "Red", "Yellow", "Brown"],
+    "answer": "White"
+  },
+  {
+    "question": "A child who respects elders shows:",
+    "options": ["Good home training", "Pride", "Rebellion", "Disobedience"],
+    "answer": "Good home training"
+  },
+  {
+    "question": "Which of the following is an effect of corruption?",
+    "options": ["Underdevelopment", "Peace", "Unity", "Love"],
+    "answer": "Underdevelopment"
+  },
+  {
+    "question": "Where is the eagle found on Nigeria’s coat of arms?",
+    "options": ["At the top", "Under the horses", "Beside the flag", "On the ground"],
+    "answer": "At the top"
+  },
+  {
+    "question": "A society without rules will likely experience:",
+    "options": ["Chaos", "Peace", "Growth", "Happiness"],
+    "answer": "Chaos"
+  },
+  {
+    "question": "Which of the following promotes good leadership?",
+    "options": ["Transparency", "Dishonesty", "Greed", "Corruption"],
+    "answer": "Transparency"
+  },
+  {
+    "question": "Which is a good habit in a democratic society?",
+    "options": ["Freedom of speech", "Fighting leaders", "Dictatorship", "Silencing others"],
+    "answer": "Freedom of speech"
+  },
+
+
+
   
-  {
-    question: "What is the opposite of 'early'?",
-    options: ["Late", "Fast", "Long", "Soon"],
-    correct: "Late"
-  },
-  {
-    question: "What does the word 'bark' mean in 'The dog barked loudly'?",
-    options: ["Tree covering", "Cry of a dog", "Wood", "Scratch"],
-    correct: "Cry of a dog"
-  },
-  {
-    question: "What is a synonym for 'happy'?",
-    options: ["Sad", "Angry", "Joyful", "Tired"],
-    correct: "Joyful"
-  },
-  {
-    question: "Which is a declarative sentence?",
-    options: ["Close the door.", "Is that your book?", "I am hungry.", "Where are you?"],
-    correct: "I am hungry."
-  },
-  {
-    question: "Pick a sentence with correct grammar.",
-    options: ["He going school", "He go to school", "He is going to school", "He gone to school"],
-    correct: "He is going to school"
-  },
-  {
-    question: "Which part of speech is 'quickly'?",
-    options: ["Noun", "Adjective", "Adverb", "Verb"],
-    correct: "Adverb"
-  }
-    
 ];
+
+
+
+
+
 
 
 
