@@ -98,15 +98,7 @@ const questions = [
     "question": "What promotes peaceful living among citizens?",
     "options": ["Love and tolerance", "Hatred and anger", "Cheating", "Fighting"],
     "answer": "Love and tolerance"
-  }
-
-];
-
-
-
-
-
-/*const questions = [
+  },
   {
     "question": "Which of the following is a civic responsibility of citizens?",
     "options": ["Paying taxes", "Avoiding school", "Spreading rumours", "Dodging elections"],
@@ -206,16 +198,9 @@ const questions = [
     "question": "Which is a good habit in a democratic society?",
     "options": ["Freedom of speech", "Fighting leaders", "Dictatorship", "Silencing others"],
     "answer": "Freedom of speech"
-  },
+  }
 
-
-
-  
 ];
-
-
-
-
 
 
 
