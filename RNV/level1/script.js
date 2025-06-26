@@ -1,5 +1,115 @@
 const questions = [
+
   {
+    "question": "Which of these is a national symbol of Nigeria?",
+    "options": ["Nigerian Flag", "Pencil", "Blackboard", "School Bell"],
+    "answer": "Nigerian Flag"
+  },
+  {
+    "question": "What are the colours of the Nigerian flag?",
+    "options": ["Green and White", "Blue and White", "Green and Red", "Red and Yellow"],
+    "answer": "Green and White"
+  },
+  {
+    "question": "Who is the current President of Nigeria?",
+    "options": ["(Add current president here)", "Goodluck Jonathan", "Yemi Osinbajo", "Obasanjo"],
+    "answer": "(Add current president here)"
+  },
+  {
+    "question": "Which is an example of good behaviour at home?",
+    "options": ["Greeting elders", "Shouting at parents", "Scattering the room", "Eating carelessly"],
+    "answer": "Greeting elders"
+  },
+  {
+    "question": "What is the capital of Nigeria?",
+    "options": ["Abuja", "Lagos", "Kano", "Ibadan"],
+    "answer": "Abuja"
+  },
+  {
+    "question": "What should you say when someone gives you something?",
+    "options": ["Thank you", "Give me more", "Go away", "Nothing"],
+    "answer": "Thank you"
+  },
+  {
+    "question": "Which of these is a good national value?",
+    "options": ["Honesty", "Fighting", "Stealing", "Laziness"],
+    "answer": "Honesty"
+  },
+  {
+    "question": "How do we show love to our country?",
+    "options": ["Respect the flag", "Tear the flag", "Ignore laws", "Fight others"],
+    "answer": "Respect the flag"
+  },
+  {
+    "question": "Who leads a school?",
+    "options": ["Head teacher", "Farmer", "Banker", "Police"],
+    "answer": "Head teacher"
+  },
+  {
+    "question": "What should you do when the national anthem is played?",
+    "options": ["Stand still", "Sit down", "Clap hands", "Talk loudly"],
+    "answer": "Stand still"
+  },
+  {
+    "question": "Which of these is a traditional Nigerian food?",
+    "options": ["Amala", "Pizza", "Burger", "Spaghetti"],
+    "answer": "Amala"
+  },
+  {
+    "question": "What is a tribe?",
+    "options": ["A group of people with same culture", "A type of food", "A school", "A church"],
+    "answer": "A group of people with same culture"
+  },
+  {
+    "question": "Which of these is a Nigerian tribe?",
+    "options": ["Yoruba", "French", "German", "British"],
+    "answer": "Yoruba"
+  },
+  {
+    "question": "What do we use to vote during elections?",
+    "options": ["Voter card", "School bag", "Cup", "Spoon"],
+    "answer": "Voter card"
+  },
+  {
+    "question": "What is the importance of respecting rules?",
+    "options": ["It brings peace", "It causes fight", "It makes us lazy", "It brings trouble"],
+    "answer": "It brings peace"
+  },
+  {
+    "question": "What should we do when we make mistakes?",
+    "options": ["Say sorry", "Shout", "Blame others", "Fight"],
+    "answer": "Say sorry"
+  },
+  {
+    "question": "What is a good way to behave in school?",
+    "options": ["Obey teachers", "Break chairs", "Fight classmates", "Skip classes"],
+    "answer": "Obey teachers"
+  },
+  {
+    "question": "What does the green in the Nigerian flag represent?",
+    "options": ["Agriculture", "Water", "Oil", "Air"],
+    "answer": "Agriculture"
+  },
+  {
+    "question": "What does the white in the Nigerian flag stand for?",
+    "options": ["Peace", "Milk", "Salt", "Clothes"],
+    "answer": "Peace"
+  },
+  {
+    "question": "Which group protects Nigeria from danger?",
+    "options": ["The Army", "The Farmers", "The Doctors", "The Teachers"],
+    "answer": "The Army"
+  },
+
+
+
+]
+  
+  
+  
+  
+  
+  /*{
     "question": "Why do we raise the national flag in schools?",
     "options": ["To show respect for the country", "To dry it", "To clean windows", "To cover books"],
     "answer": "To show respect for the country"
@@ -49,9 +159,8 @@ const questions = [
     "options": ["Playing as a team", "Fighting alone", "Cheating others", "Causing problems"],
     "answer": "Playing as a team"
   },
-
+*/
     
-];
 
 
 
