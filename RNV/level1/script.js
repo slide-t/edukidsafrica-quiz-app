@@ -101,127 +101,165 @@ const questions = [
     "answer": "The Army"
   },
 
-
-
-]
-  
-  
-  
-  
-  
-  /*{
-    "question": "Why do we raise the national flag in schools?",
-    "options": ["To show respect for the country", "To dry it", "To clean windows", "To cover books"],
-    "answer": "To show respect for the country"
+  {
+    "question": "Which of these is a sign of respect?",
+    "options": ["Greeting elders", "Jumping on the table", "Ignoring people", "Breaking chairs"],
+    "answer": "Greeting elders"
   },
   {
-    "question": "What does loyalty to Nigeria mean?",
-    "options": ["Support and love for the nation", "Fighting leaders", "Hiding from duty", "Avoiding elections"],
-    "answer": "Support and love for the nation"
+    "question": "How do we keep our environment clean?",
+    "options": ["Pick up dirt", "Throw dirt anywhere", "Spit on the floor", "Leave plates dirty"],
+    "answer": "Pick up dirt"
   },
   {
-    "question": "Which of the following is a good national value?",
-    "options": ["Discipline", "Corruption", "Violence", "Cheating"],
-    "answer": "Discipline"
+    "question": "Which of these is a community helper?",
+    "options": ["Nurse", "Thief", "Beggar", "Liar"],
+    "answer": "Nurse"
   },
   {
-    "question": "How do we show leadership at home?",
-    "options": ["Helping younger ones", "Refusing chores", "Fighting siblings", "Being lazy"],
-    "answer": "Helping younger ones"
+    "question": "A good citizen must always be ________.",
+    "options": ["Obedient", "Rude", "Noisy", "Proud"],
+    "answer": "Obedient"
   },
   {
-    "question": "A person who tells lies is said to lack ________.",
-    "options": ["Truthfulness", "Money", "Humor", "Pride"],
-    "answer": "Truthfulness"
+    "question": "What is the job of the police?",
+    "options": ["Keep law and order", "Cook food", "Drive bus", "Sell clothes"],
+    "answer": "Keep law and order"
   },
   {
-    "question": "What is the benefit of obeying traffic lights?",
-    "options": ["Prevents accidents", "Creates noise", "Blocks road", "Confuses people"],
-    "answer": "Prevents accidents"
+    "question": "What should you do before crossing the road?",
+    "options": ["Look left and right", "Run fast", "Close eyes", "Shout"],
+    "answer": "Look left and right"
   },
   {
-    "question": "What is one way to respect others?",
-    "options": ["Listen when they speak", "Interrupt them", "Laugh at them", "Ignore their ideas"],
-    "answer": "Listen when they speak"
+    "question": "What is discipline?",
+    "options": ["Doing the right thing", "Fighting back", "Being lazy", "Making noise"],
+    "answer": "Doing the right thing"
   },
   {
-    "question": "The act of sharing is a sign of ________.",
-    "options": ["Kindness", "Jealousy", "Selfishness", "Pride"],
-    "answer": "Kindness"
+    "question": "One way to show patriotism is to ________.",
+    "options": ["Obey national laws", "Disobey teachers", "Tear money", "Hate the flag"],
+    "answer": "Obey national laws"
   },
   {
-    "question": "How do we keep the environment clean?",
-    "options": ["By not littering", "Throwing trash on the road", "Burning plastics", "Spilling oil"],
-    "answer": "By not littering"
+    "question": "What is unity?",
+    "options": ["Living in peace together", "Fighting", "Living alone", "Lying"],
+    "answer": "Living in peace together"
   },
   {
-    "question": "What is a good example of unity?",
-    "options": ["Playing as a team", "Fighting alone", "Cheating others", "Causing problems"],
-    "answer": "Playing as a team"
-  },
-*/
-    
-
-
-
-
-
-
-
-
-
-
-
-/*
-const questions = [
-  {
-    question: "Which is the correct plural of 'child'?",
-    options: ["Childs", "Children", "Childes", "Childrens"],
-    correct: "Children"
+    "question": "What should we do to sick people?",
+    "options": ["Care for them", "Mock them", "Run away", "Ignore them"],
+    "answer": "Care for them"
   },
   {
-    question: "Identify the verb in the sentence: 'She runs every morning.'",
-    options: ["She", "Runs", "Every", "Morning"],
-    correct: "Runs"
+    "question": "How do you show kindness at school?",
+    "options": ["Share things", "Break toys", "Hurt others", "Refuse to help"],
+    "answer": "Share things"
   },
   {
-    question: "What is the opposite of 'brave'?",
-    options: ["Fearless", "Shy", "Cowardly", "Strong"],
-    correct: "Cowardly"
-  },
-  
-  {
-    question: "What is the opposite of 'early'?",
-    options: ["Late", "Fast", "Long", "Soon"],
-    correct: "Late"
+    "question": "Which of these is a right of every child?",
+    "options": ["Education", "Beating", "Suffering", "Abuse"],
+    "answer": "Education"
   },
   {
-    question: "What does the word 'bark' mean in 'The dog barked loudly'?",
-    options: ["Tree covering", "Cry of a dog", "Wood", "Scratch"],
-    correct: "Cry of a dog"
+    "question": "What do you call someone from Nigeria?",
+    "options": ["Nigerian", "Chinese", "Canadian", "French"],
+    "answer": "Nigerian"
   },
   {
-    question: "What is a synonym for 'happy'?",
-    options: ["Sad", "Angry", "Joyful", "Tired"],
-    correct: "Joyful"
+    "question": "The coat of arms is a ________.",
+    "options": ["National symbol", "Jacket", "Flag", "Badge"],
+    "answer": "National symbol"
   },
   {
-    question: "Which is a declarative sentence?",
-    options: ["Close the door.", "Is that your book?", "I am hungry.", "Where are you?"],
-    correct: "I am hungry."
+    "question": "What does black in the coat of arms represent?",
+    "options": ["Fertile soil", "Oil", "Rain", "Iron"],
+    "answer": "Fertile soil"
   },
   {
-    question: "Pick a sentence with correct grammar.",
-    options: ["He going school", "He go to school", "He is going to school", "He gone to school"],
-    correct: "He is going to school"
+    "question": "How can we protect public property?",
+    "options": ["Use it with care", "Destroy it", "Break it", "Ignore it"],
+    "answer": "Use it with care"
   },
   {
-    question: "Which part of speech is 'quickly'?",
-    options: ["Noun", "Adjective", "Adverb", "Verb"],
-    correct: "Adverb"
+    "question": "Who is a good citizen?",
+    "options": ["One who obeys rules", "One who lies", "One who steals", "One who is lazy"],
+    "answer": "One who obeys rules"
+  },
+  {
+    "question": "Why do we sing the national anthem?",
+    "options": ["To show love for Nigeria", "To sing anyhow", "To make noise", "To disrespect"],
+    "answer": "To show love for Nigeria"
+  },
+  {
+    "question": "Which of these is not a national symbol?",
+    "options": ["Pencil", "Flag", "Coat of arms", "National anthem"],
+    "answer": "Pencil"
+  },
+  {
+    "question": "What is loyalty?",
+    "options": ["Being true and faithful", "Being rude", "Fighting everyone", "Telling lies"],
+    "answer": "Being true and faithful"
+  },
+  {
+    "question": "What does the eagle on the coat of arms stand for?",
+    "options": ["Strength", "Love", "Rain", "Beauty"],
+    "answer": "Strength"
+  },
+  {
+    "question": "Where do we find the national pledge?",
+    "options": ["In schools", "In a cupboard", "On food", "In the market"],
+    "answer": "In schools"
+  },
+  {
+    "question": "Who are our national heroes?",
+    "options": ["People who served Nigeria", "Footballers", "Singers", "Shopkeepers"],
+    "answer": "People who served Nigeria"
+  },
+  {
+    "question": "What is the first line of the National Anthem?",
+    "options": ["Arise, O Compatriots", "Nigeria we hail thee", "Unity and Faith", "Peace and Progress"],
+    "answer": "Arise, O Compatriots"
+  },
+  {
+    "question": "Where do we go to learn values and culture?",
+    "options": ["School", "Shop", "Bus stop", "Bank"],
+    "answer": "School"
+  },
+  {
+    "question": "What does fairness mean?",
+    "options": ["Treating others equally", "Hating people", "Lying", "Fighting"],
+    "answer": "Treating others equally"
+  },
+  {
+    "question": "How should we behave at national events?",
+    "options": ["Be orderly", "Make noise", "Push people", "Fight"],
+    "answer": "Be orderly"
+  },
+  {
+    "question": "When do we celebrate Independence Day?",
+    "options": ["October 1st", "December 25th", "May 27th", "June 12th"],
+    "answer": "October 1st"
+  },
+  {
+    "question": "What is a family?",
+    "options": ["People related by blood or marriage", "Friends", "Teachers", "Classmates"],
+    "answer": "People related by blood or marriage"
+  },
+  {
+    "question": "What is tradition?",
+    "options": ["Customs passed down", "Fighting", "Playing", "Cooking alone"],
+    "answer": "Customs passed down"
+  },
+  {
+    "question": "A good Nigerian should always be ________.",
+    "options": ["Honest", "Corrupt", "Proud", "Foolish"],
+    "answer": "Honest"
   }
+];
     
-];*/
+
+
 
 
 
