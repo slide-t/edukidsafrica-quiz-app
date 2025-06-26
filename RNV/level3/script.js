@@ -198,7 +198,109 @@ const questions = [
     "question": "Which is a good habit in a democratic society?",
     "options": ["Freedom of speech", "Fighting leaders", "Dictatorship", "Silencing others"],
     "answer": "Freedom of speech"
+  },
+  {
+    "question": "Which of these is a national symbol of Nigeria?",
+    "options": ["National Anthem", "Tribal song", "Street light", "Billboard"],
+    "answer": "National Anthem"
+  },
+  {
+    "question": "An act of returning a lost item shows:",
+    "options": ["Integrity", "Greed", "Dishonesty", "Anger"],
+    "answer": "Integrity"
+  },
+  {
+    "question": "Corruption in a country leads to:",
+    "options": ["Poverty", "Progress", "Unity", "Love"],
+    "answer": "Poverty"
+  },
+  {
+    "question": "One way of showing respect for elders is:",
+    "options": ["Greeting politely", "Walking away", "Interrupting them", "Arguing"],
+    "answer": "Greeting politely"
+  },
+  {
+    "question": "Who enforces the law in the country?",
+    "options": ["Police", "Farmers", "Students", "Teachers"],
+    "answer": "Police"
+  },
+  {
+    "question": "The act of doing what is right even when no one is watching is called:",
+    "options": ["Integrity", "Laziness", "Bribery", "Cheating"],
+    "answer": "Integrity"
+  },
+  {
+    "question": "Which arm of government makes laws?",
+    "options": ["Legislative", "Executive", "Judiciary", "Military"],
+    "answer": "Legislative"
+  },
+  {
+    "question": "A person who tells lies lacks:",
+    "options": ["Honesty", "Joy", "Beauty", "Speed"],
+    "answer": "Honesty"
+  },
+  {
+    "question": "Respecting the rights of others shows:",
+    "options": ["Tolerance", "Disrespect", "Anger", "Wickedness"],
+    "answer": "Tolerance"
+  },
+  {
+    "question": "The green in the Nigerian flag stands for:",
+    "options": ["Agriculture", "Water", "Air", "Mountains"],
+    "answer": "Agriculture"
+  },
+  {
+    "question": "Which one is a moral value?",
+    "options": ["Kindness", "Fighting", "Lying", "Cheating"],
+    "answer": "Kindness"
+  },
+  {
+    "question": "How can we show loyalty to our school?",
+    "options": ["Obeying school rules", "Breaking windows", "Skipping classes", "Fighting"],
+    "answer": "Obeying school rules"
+  },
+  {
+    "question": "What does the black shield in the Coat of Arms represent?",
+    "options": ["Fertile soil", "Security", "Oil", "Airports"],
+    "answer": "Fertile soil"
+  },
+  {
+    "question": "A good citizen must be:",
+    "options": ["Law-abiding", "Corrupt", "Lazy", "Dishonest"],
+    "answer": "Law-abiding"
+  },
+  {
+    "question": "Paying tax is a:",
+    "options": ["Civic responsibility", "Punishment", "Game", "Charity"],
+    "answer": "Civic responsibility"
+  },
+  {
+    "question": "National Pledge is a sign of:",
+    "options": ["Loyalty", "Joke", "Fear", "Hunger"],
+    "answer": "Loyalty"
+  },
+  {
+    "question": "Who among these is a community helper?",
+    "options": ["Nurse", "Burglar", "Thief", "Liar"],
+    "answer": "Nurse"
+  },
+  {
+    "question": "What does the eagle on the Coat of Arms represent?",
+    "options": ["Strength", "Flight", "Freedom", "Knowledge"],
+    "answer": "Strength"
+  },
+  {
+    "question": "Keeping the environment clean is a sign of:",
+    "options": ["Responsibility", "Rebellion", "Disobedience", "Hate"],
+    "answer": "Responsibility"
+  },
+  {
+    "question": "A good citizen contributes to national development by:",
+    "options": ["Doing his duty", "Avoiding duties", "Causing conflict", "Harming others"],
+    "answer": "Doing his duty"
   }
+
+  
 
 ];
 
