@@ -149,7 +149,7 @@ function showResult() {
 }
 
 function goToNextLevel() {
-  window.location.href = "edukidsafrica-quiz-app/advance/index.html";
+  window.location.href = "https://slide-t.github.io/edukidsafrica-quiz-app/CivilEducation/advance/index.html";
 }
 
 // Only run when the DOM is fully loaded
