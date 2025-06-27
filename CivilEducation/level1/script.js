@@ -255,55 +255,7 @@ const questions = [
     "answer": "Learn and obey"
   }
 ];
-const questions = [
-  {
-    question: "Which is the correct plural of 'child'?",
-    options: ["Childs", "Children", "Childes", "Childrens"],
-    correct: "Children"
-  },
-  {
-    question: "Identify the verb in the sentence: 'She runs every morning.'",
-    options: ["She", "Runs", "Every", "Morning"],
-    correct: "Runs"
-  },
-  {
-    question: "What is the opposite of 'brave'?",
-    options: ["Fearless", "Shy", "Cowardly", "Strong"],
-    correct: "Cowardly"
-  },
-  
-  {
-    question: "What is the opposite of 'early'?",
-    options: ["Late", "Fast", "Long", "Soon"],
-    correct: "Late"
-  },
-  {
-    question: "What does the word 'bark' mean in 'The dog barked loudly'?",
-    options: ["Tree covering", "Cry of a dog", "Wood", "Scratch"],
-    correct: "Cry of a dog"
-  },
-  {
-    question: "What is a synonym for 'happy'?",
-    options: ["Sad", "Angry", "Joyful", "Tired"],
-    correct: "Joyful"
-  },
-  {
-    question: "Which is a declarative sentence?",
-    options: ["Close the door.", "Is that your book?", "I am hungry.", "Where are you?"],
-    correct: "I am hungry."
-  },
-  {
-    question: "Pick a sentence with correct grammar.",
-    options: ["He going school", "He go to school", "He is going to school", "He gone to school"],
-    correct: "He is going to school"
-  },
-  {
-    question: "Which part of speech is 'quickly'?",
-    options: ["Noun", "Adjective", "Adverb", "Verb"],
-    correct: "Adverb"
-  }
-    
-];
+
 
 
 
